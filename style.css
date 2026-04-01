@@ -3,3 +3,158 @@
     background-image: url("https://github.com/unterhunde/karl_the_mighty.github.io/plasma.gif");
     background-position: center 0;
 }
+
+@keyframes wave {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(7px);
+  }
+}
+
+@keyframes molten-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 150% 50%;
+  }
+}
+
+@keyframes shootingStar {
+  0% {
+    transform: rotate(315deg) translateX(0);
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotate(315deg) translateX(-1000px);
+    opacity: 0;
+  }
+}
+
+@keyframes cloudFloat {
+  0% {
+    transform: translateX(-300px);
+  }
+
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+/* ===== VISUAL EFFECTS ===== */
+/* Shooting stars */
+.star {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.8), 0 0 10px 4px rgba(255, 255, 255, 0.5);
+  animation: shootingStar linear infinite;
+}
+
+html[data-theme="dark"] body .star,
+html[data-theme="accessible"] body .star {
+  display: block;
+}
+
+/* Star positioning */
+.star1 {
+  top: 0;
+  left: 60%;
+  animation-duration: 3.0s;
+  animation-delay: 0s;
+}
+
+.star2 {
+  top: 0;
+  left: 80%;
+  animation-duration: 6.0s;
+  animation-delay: 0.4s;
+}
+
+.star3 {
+  top: 0;
+  left: 50%;
+  animation-duration: 2.5s;
+  animation-delay: 0.8s;
+}
+
+.star4 {
+  top: 0;
+  left: 20%;
+  animation-duration: 5.0s;
+  animation-delay: 1.2s;
+}
+
+.star5 {
+  top: 1%;
+  left: 100%;
+  animation-duration: 2.7s;
+  animation-delay: 1.6s;
+}
+
+.star6 {
+  top: 10%;
+  left: 100%;
+  animation-duration: 3.1s;
+  animation-delay: 2.0s;
+}
+
+.star7 {
+  top: 6%;
+  left: 100%;
+  animation-duration: 4.9s;
+  animation-delay: 2.4s;
+}
+
+.star8 {
+  top: 8%;
+  left: 100%;
+  animation-duration: 3.3s;
+  animation-delay: 2.8s;
+}
+
+.star9 {
+  top: 2%;
+  left: 100%;
+  animation-duration: 2.0s;
+  animation-delay: 3.2s;
+}
+
+.star10 {
+  top: 8%;
+  left: 100%;
+  animation-duration: 6.6s;
+  animation-delay: 3.6s;
+}
+
+/* Star trail effect */
+.star::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 200px;
+  height: 1px;
+  background: linear-gradient(90deg, #fff, transparent);
+  transform: translateY(-50%);
+  opacity: 0.8;
+}
