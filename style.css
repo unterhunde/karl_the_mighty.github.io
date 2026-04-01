@@ -1,1 +1,5 @@
-
+.container {
+    max-width: none !important;
+    background-image: url(plasma.gif);
+    background-position: center 0;
+}
