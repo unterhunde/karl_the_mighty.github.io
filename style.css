@@ -1,4 +1,4 @@
-.container {
+body.container {
     max-width: none !important;
     background-image: url("https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyNXZoMGFoODl0cDcxZmFobDdpMnlqYmNmY3oxMmp3Zmo0bjVodGszdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l49FlFL6PPPxYKNEs/200w.gif");
     background-position: center 0;
