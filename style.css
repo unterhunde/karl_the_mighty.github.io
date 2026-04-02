@@ -1,7 +1,8 @@
 .container {
     max-width: none !important;
-    background-image: url("https://raw.githubusercontent.com/unterhunde/karl_the_mighty.github.io/refs/heads/main/plasma.gif");
-    background-position: center 0;
+    background-image: url("https://unterhunde.github.io/karl_the_mighty.github.io/images/kameha.gif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 @keyframes wave {
