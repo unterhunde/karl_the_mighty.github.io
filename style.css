@@ -1,1 +1,6 @@
-
+body {
+  background-color: var(--bg-dark);
+  color: var(--primary-color) !important;
+  font-family: var(--font-primary);
+  overflow-x: hidden;
+}
