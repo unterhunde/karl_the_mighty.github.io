@@ -2,6 +2,7 @@
     max-width: none !important;
     background-image: url("https://unterhunde.github.io/karl_the_mighty.github.io/images/kameha.gif");
     background-size: 100% 100%;
+    transform: rotate(45);
     background-repeat: no-repeat;
 }
 
