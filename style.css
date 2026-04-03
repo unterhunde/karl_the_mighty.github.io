@@ -173,7 +173,7 @@ a:link, a:visited, a:hover, a:active{
 
 /* ===== Avatar and Username Area ===== */
 .Player-rank {
-	position:relative;
+	position:absolute;
 	top: 0px;
 	left: 0px;
 
