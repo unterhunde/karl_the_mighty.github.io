@@ -31,6 +31,9 @@ a:link, a:visited, a:hover, a:active{
 	min-height: 100vh;
 	min-width: 100vw;
 
+	background-color: transparent;
+	border: 10px solid #97aa39;
+
 	background-size: cover;
 	background-repeat: no-repeat;
   	background-position: top left;
@@ -41,13 +44,13 @@ a:link, a:visited, a:hover, a:active{
 .test-container {
 	position: absolute;
 	z-index: 0;
-	max-width: 200vw;
-	max-height: 100vh;
+	max-width: 50vw;
+	max-height: 50vh;
 	min-height: 100vh;
 	min-width: 100vw;
 
 	background-color: transparent;
-	border: #97aa39;
+	border: 10px solid #97aa39;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
