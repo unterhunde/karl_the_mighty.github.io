@@ -29,19 +29,21 @@
 
 }
 
-.ratings-container {
+.test-container {
 	position: relative;
 	z-index: 0;
+	max-width: 200vw;
+	max-height: 100vh;
+	min-height: 100vh;
+	min-width: 100vw;
 
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+	background-size: cover;
+	background-repeat: no-repeat;
+  	background-position: top left;
+	background-image: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/leafonwater2.gif');
+
 }
 
-.container::after {
-	content: '';
-	position: absolute;
-	inset: 0;
-	z-index: -1;
-}
 
 /* ===== AVATAR & USERNAME ===== */
 .avatar-container .username {
