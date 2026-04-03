@@ -40,7 +40,7 @@ a:link, a:visited, a:hover, a:active{
 	border: var(--theme-borders);
 	box-shadow: var(--theme-box-shadows);
 
-	background-size: cover;
+	background-size: inherit;
 	background-repeat: no-repeat;
   	background-position: top left;
 	background-image: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/leafonwater2.gif');
