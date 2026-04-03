@@ -28,7 +28,7 @@
 
 	font-family: 'Cinzel', serif !important;
   	font-size: 12px !important;
-	text-shadow: var(--theme-text-shadows) !important;;
+	text-shadow: var(--theme-text-shadows) !important;
 
 	/* Im a FANCY LAD doing FANCY stuff */
 	--theme-bubble-background: rgba(214,214,214,0.9);
@@ -46,9 +46,6 @@ a:link, a:visited, a:hover, a:active{
 	border: none !important;
 	box-shadow: none !important;
 
-	font-family: 'Cinzel', serif;
-  	font-size: 12px;
-	text-shadow: var(--theme-text-shadows);
 }
 
 /* Fill out basic container properties. */
