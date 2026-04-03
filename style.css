@@ -183,7 +183,7 @@ a:link, a:visited, a:hover, a:active{
 	transform: rotate(-90deg);
 }
 
-.avatar-container:has(.Player-username){
+.avatar-container .Player-username {
 	position: absolute;
 	top: 100px;
 	left: 5px;
