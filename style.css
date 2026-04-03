@@ -20,9 +20,11 @@
 	min-width: 100vw;
 	
 	background-image: url(https://unterhunde.github.io/karl_the_mighty.github.io/images/void.gif);
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
+	background-size: cover;          /* Fill the screen */
+	background-position: center;     /* Center the image */
+	background-repeat: no-repeat;    /* Do not tile */
+	background-attachment: fixed;    /* Keep background static while scrolling */
+	min-height: 100vh;   
 }
 
 .container::after {
