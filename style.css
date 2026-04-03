@@ -104,6 +104,7 @@ a:link, a:visited, a:hover, a:active{
 	box-shadow: var(--theme-box-shadows);
 }
 
+
 /* ===== About Container ===== */
 Card:has(.activity-card) {
 	position: relative;
@@ -171,7 +172,9 @@ Card:has(.activity-card) {
 
 	box-shadow: var(--theme-box-shadows);
 }
-
+.GameList:has(.inner-container){
+	padding: 5px;
+}
 .GameHistoryTable {
 	position: relative;
 
