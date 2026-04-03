@@ -13,7 +13,7 @@
 	--theme-blue: #6c99bb;
 
 	--theme-text-shadows: 2px 2px 4px rgba(0, 0, 0, 0.9);
-	--theme-box-shadows: 2px 2px 25px rgba(0, 0, 0, 0.9);
+	--theme-box-shadows: 2px 2px 15px rgba(0, 0, 0, 0.9);
 
 	color: var(--theme-lime);
 	background-color: var(--theme-background);
