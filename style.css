@@ -129,7 +129,7 @@ Card:has(.activity-card) {
 	border: 2px solid #000;
 	border-radius: 25px;
 	padding: 10px;
-	width: 150px;
+	width: 100px;
 
 	color: var(--theme-background);
 	text-align: center;
