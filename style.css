@@ -2,21 +2,21 @@
 
 /* ===== CSS VARIABLES ===== */
 :root {
-  /* Couleurs principales */
-  --primary-color: #02265c;
+  /* Main Colors */
+  --primary-color: #4c39aa;
   --secondary-color: #2a1f5e;
   --gradient-primary: linear-gradient(45deg, #ff2d00, #ff8c00);
-  --gradient-navbar-dark: linear-gradient(45deg, #3b0000, #b46918);
-  --gradient-navbar-light: linear-gradient(45deg, #c3751d, #c00000);
+  --gradient-navbar-dark: linear-gradient(45deg, #3b2c84, #75842c);
+  --gradient-navbar-light: linear-gradient(45deg, #3b2c84, #75842c);
 
-  /* Couleurs de fond */
+  /* Background Colors */
   --bg-dark: #040404;
   --bg-primary-alpha: #ff24002e;
   --bg-light-alpha: #ffffff78;
   --bg-card-dark: #4d0b00b5;
   --bg-card-light: #ffffffb0;
 
-  /* Images de fond */
+  /* Background Images*/
   --bg-dark: url(https://unterhunde.github.io/karl_the_mighty.github.io/images/void.gif);
   --logo-url: url(https://unterhunde.github.io/karl_the_mighty.github.io/images/octo-white.png);
 
