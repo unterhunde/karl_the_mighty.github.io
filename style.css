@@ -26,7 +26,7 @@
 
   /* Ombres et effets */
   --text-shadow: 1px 1px 1px #000;
-  --box-shadow-glow: 0 0 10px #ff4500, 0 0 20px #ff8c00 inset;
+  --box-shadow-glow: 0 0 10px #4c39aa, 0 0 20px #ff8c00 inset;
   --border-radius: 10px;
   --border-radius-large: 10px;
 }
@@ -354,13 +354,13 @@ html[data-theme="dark"] body {
   --flame-dark-row-hover-bg-general: #772424;
   --flame-dark-row-hover-bg-clickable: #69000096;
   --flame-dark-glow-color1: #ff8c00;
-  --flame-dark-glow-color2: #ff4500;
-  --flame-dark-border-color: #ff4500;
+  --flame-dark-glow-color2: #4c39aa;
+  --flame-dark-border-color: #4c39aa;
   --flame-dark-date-text-color: #ffde5b;
   --flame-dark-won-result-color: #7aff7a;
   --flame-dark-lost-result-color: #ff6b6b;
-  --flame-dark-header-glow: 0 0 10px #ff8c00, 0 0 20px #ff4500;
-  --flame-dark-header-border: 4px solid #ff4500;
+  --flame-dark-header-glow: 0 0 10px #ff8c00, 0 0 20px #4c39aa;
+  --flame-dark-header-border: 4px solid #4c39aa;
 }
 
 
@@ -465,7 +465,7 @@ html[data-theme="dark"] body .game-history-table td.library-lost-result-unranked
   font-weight: bold;
   text-decoration: none;
   padding: 0.2rem 0.5rem;
-  background: linear-gradient(to right, #ff4500, #ff8c00);
+  background: linear-gradient(to right, #4c39aa, #ff8c00);
   border-radius: 6px;
   transition: transform 0.8s cubic-bezier(0.68, -0.55, 0.27, 1.55);
   z-index: 1;
