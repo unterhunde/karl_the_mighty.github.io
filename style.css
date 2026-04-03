@@ -32,9 +32,8 @@ a:link, a:visited, a:hover, a:active{
 .container {
 	position: absolute;
 	z-index: 0;
-	top: 50px;
-	left: 50px;
-	width: 50%;
+	top: 250px;
+	left: 250px;
 	height: 50%;
 
 	background-color: transparent;
