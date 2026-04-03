@@ -123,7 +123,7 @@ Card .activity-card {
 .about-container {
 	position: absolute;
 	top: 20px;
-	left: 200px;
+	left: 100px;
 
 	background: var(--theme-bubble-background);
 	border: 2px solid #000;
