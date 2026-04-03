@@ -223,8 +223,6 @@ html[data-theme="dark"] body .review-history-table tbody tr:hover {
 }
 
 @keyframes fire-glow {
-		--fire-glow-3: rgba(76, 57, 170, 0.9);
-	--fire-glow-4: rgba(76, 57, 170, 0.8);
 	0%   { box-shadow: 0 0 15px rgba(76, 57, 170, 0.7), 0 0 30px gba(76, 57, 170, 0.6; }
 	100% { box-shadow: 0 0 25px rgba(76, 57, 170, 0.9), 0 0 40px rgba(76, 57, 170, 0.8); }
 }
