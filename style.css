@@ -191,10 +191,8 @@ a:link, a:visited, a:hover, a:active{
 	color: var(--theme-blue);
 	text-shadow: var(--theme-text-shadows);
 
-	transform: rotate(-90);
-}
+	transform: rotate(-90deg);
 
-.Player-username {
 	animation: username_kapow 0.5s linear infinite alternate;
 }
 
