@@ -37,11 +37,7 @@
 	min-height: 100vh;
 	min-width: 100vw;
 
-	background-size: cover;
-	background-repeat: no-repeat;
-  	background-position: top left;
-	background-image: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/leafonwater2.gif');
-
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 
