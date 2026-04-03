@@ -12,7 +12,9 @@
 	--theme-pink: #b05279;
 	--theme-blue: #6c99bb;
 
+	/* Cards and Sub-Containers*/
 	--theme-background-alpha: rgba(46,46,46, 0.9);
+	--theme-border-radius: 20px;
 
 	--theme-text-shadows: 2px 2px 4px rgba(0, 0, 0, 0.9);
 	--theme-box-shadows: 2px 2px 15px rgba(0, 0, 0, 0.9);
@@ -39,7 +41,7 @@ a:link, a:visited, a:hover, a:active{
 	left: 10px;
 
 	background-size: 100% auto;
-	background-color: transparent;
+	background-color: var(--theme-background-alpha);
 	border: var(--theme-borders);
 	box-shadow: var(--theme-box-shadows);
 }
@@ -53,6 +55,8 @@ a:link, a:visited, a:hover, a:active{
 	background-size: 100% auto;
 	background-color: transparent;
 	border: var(--theme-borders);
+	border-radius: var(--theme-border-radius);
+
 	box-shadow: var(--theme-box-shadows);
 
 	background-repeat: no-repeat;
