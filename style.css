@@ -12,8 +12,8 @@
 	--theme-pink: #b05279;
 	--theme-blue: #6c99bb;
 
-	--theme-text-shadows: 2px 2px 4px rgba(0, 0, 0, 0.8);
-	--theme-box-shadows: 2px 2px 10px rgba(0, 0, 0, 0.8);
+	--theme-text-shadows: 2px 2px 4px rgba(0, 0, 0, 0.9);
+	--theme-box-shadows: 2px 2px 100px rgba(0, 0, 0, 0.9);
 
 	color: var(--theme-lime);
 	background-color: var(--theme-background);
