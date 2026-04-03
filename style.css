@@ -138,8 +138,8 @@ a:link, a:visited, a:hover, a:active{
 }
 
 .Card {
-	background: transparent;
-	border: none;
+	background: transparent !important;
+	border: none !important;
 }
 
 .GameList {
