@@ -180,13 +180,12 @@ a:link, a:visited, a:hover, a:active{
 }
 
 /* ===== Avatar and Username Area ===== */
-.username{
+
+.avatar-container .username {
 	position: absolute;
 	top: 100px;
 	left: 5px;
-}
 
-.avatar-container .username {
 	color: var(--theme-blue);
 	text-shadow: var(--theme-text-shadows);
 }
