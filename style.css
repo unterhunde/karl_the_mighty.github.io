@@ -97,7 +97,38 @@ a:link, a:visited, a:hover, a:active{
 	box-shadow: var(--theme-box-shadows);
 }
 
-/* ===== AVATAR & USERNAME ===== */
+/* ===== About Container ===== */
+.about-container {
+  position: relative;
+  background: #fff;
+  border: 4px solid #000;
+  border-radius: 25px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  font-family: 'Comic Sans MS', sans-serif;
+  font-weight: bold;
+  /* The Loop: floating animation */
+  animation: float 3s ease-in-out infinite;
+}
+
+/* The Tail (Triangle) */
+.about-container::after {
+  content: '';
+  position: absolute;
+  bottom: -20px; /* Adjust based on tail size */
+  left: 50px;
+  border-width: 20px 20px 0;
+  border-style: solid;
+  border-color: #000 transparent transparent;
+}
+
+/* Loop Animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+/* ===== Avatar and Username Area ===== */
 .avatar-container .username {
 	color: var(--theme-blue);
 	text-shadow: var(--theme-text-shadows);
