@@ -171,6 +171,16 @@ a:link, a:visited, a:hover, a:active{
 }
 
 /* ===== Avatar and Username Area ===== */
+.Player-rank {
+	position:relative;
+	top: 0px;
+	left: 0px;
+
+	color: var(--theme-blue);
+	text-shadow: var(--theme-text-shadows);
+
+	transform: rotate(-90);
+}
 
 .Player-username {
 	position: absolute;
