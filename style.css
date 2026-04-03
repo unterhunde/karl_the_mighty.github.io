@@ -105,7 +105,7 @@ a:link, a:visited, a:hover, a:active{
 }
 
 /* ===== About Container ===== */
-Card .activity-card {
+Card:has(.activity-card) {
 	position: relative;
 
 	padding: var(--theme-border-radius);
