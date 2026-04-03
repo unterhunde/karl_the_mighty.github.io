@@ -12,6 +12,8 @@
 	--theme-pink: #b05279;
 	--theme-blue: #6c99bb;
 
+	--theme-background-alpha: rgba(46,46,46, 0.9);
+
 	--theme-text-shadows: 2px 2px 4px rgba(0, 0, 0, 0.9);
 	--theme-box-shadows: 2px 2px 15px rgba(0, 0, 0, 0.9);
 	--theme-borders: 1px solid var(--theme-lime);
@@ -29,6 +31,7 @@
 a:link, a:visited, a:hover, a:active{
 	color: var(--theme-blue);
 }
+
 .container {
 	position: absolute;
 	z-index: 0;
@@ -43,6 +46,16 @@ a:link, a:visited, a:hover, a:active{
 	background-repeat: no-repeat;
   	background-position: top left;
 	background-image: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/leafonwater2.gif');
+
+}
+
+.ratings-container {
+	position: relative;
+
+	background-size: 100% auto;
+	background-color: var(--theme-background-alpha);
+	border: var(--theme-borders);
+	box-shadow: var(--theme-box-shadows);
 
 }
 
