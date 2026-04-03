@@ -1,5 +1,5 @@
 /* === OGS Custom Profile Theme by Karl the Mighty  === */
-@import url('https://googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 
 :root {
 /* ==================== ONLY 5 COLORS ==================== */
@@ -185,7 +185,7 @@ a:link, a:visited, a:hover, a:active{
 	left: 0px;
 
 	color: var(--theme-purple);
-	font-family: 'Cinzel', sans-serif;
+	font-family: 'Cinzel', serif;
   	font-size: 22px;
 	text-shadow: var(--theme-text-shadows);
 
