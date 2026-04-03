@@ -16,7 +16,7 @@
 	--theme-box-shadows: 2px 2px 15px rgba(0, 0, 0, 0.9);
 	--theme-borders: 1px solid var(--theme-lime);
 
-	color: var(--theme-orange);
+	color: var(--theme-yellow);
 	background-color: var(--theme-background);
 
 	font-family: 'Lucida Console', sans-serif;
