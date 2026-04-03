@@ -203,8 +203,8 @@ Card:has(.activity-card) {
 /* ===== Avatar and Username Area ===== */
 .avatar-container .Player-rank {
 	position:absolute;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 
 	color: var(--theme-purple);
 	font-family: 'Cinzel', serif;
