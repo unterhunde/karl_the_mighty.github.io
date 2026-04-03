@@ -225,7 +225,7 @@ Card:has(.activity-card) {
 
 	transform: rotate(-90deg);
 
-	animation: username_kapow 0.05s linear infinite alternate;
+	animation: username_kapow 0.25s linear infinite alternate;
 }
 
 @keyframes username_kapow {
