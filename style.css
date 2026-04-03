@@ -20,7 +20,7 @@
 	min-width: 100vw;
 	
 	background-image: url(https://unterhunde.github.io/karl_the_mighty.github.io/images/void.gif);
-	/*background-repeat: no-repeat;*/
+	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
 }
