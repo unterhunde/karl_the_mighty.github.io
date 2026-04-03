@@ -119,7 +119,7 @@ a:link, a:visited, a:hover, a:active{
 	color: var(--theme-background);
 	text-align: center;
 	font-family: 'Comic Sans MS', sans-serif;
-	font-size: 22;
+	font-size: 22px;
 	font-weight: bold;
 	/* The Loop: floating animation */
 	animation: float 3s ease-in-out infinite;
