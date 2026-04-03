@@ -15,7 +15,7 @@
 /* ===== MAIN CONTAINER ===== */
 html[data-theme="dark"] body::before,
 html[data-theme="dark"] body::after {
-		background-color: --theme-teal;
+		background-color: var(--theme-teal);
 }
 
 .container {
