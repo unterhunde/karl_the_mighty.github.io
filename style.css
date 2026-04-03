@@ -29,6 +29,24 @@
 	--border-radius-large: 12px;
 	--box-shadow-glow: 0 0 12px var(--theme-main), 0 0 25px --fire-glow-2;
 	--text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+	
+	--table-bg-even: rgba(42, 31, 94, 0.6);
+	--table-bg-odd: rgba(76, 57, 170, 0.3);
+	--table-hover: rgba(255, 45, 0, 0.25);
+	--table-header: rgba(76, 57, 170, 0.9);
+	--table-border: rgba(255, 45, 0, 0.4);
+	
+	--chart-weak-wins: rgba(255,255,255,0.5);
+	--chart-strong-wins: var(--color-5);
+	--chart-weak-losses: rgba(255,255,255,0.4);
+	--chart-strong-losses: rgba(255,255,255,0.85);
+	--chart-rating-line: var(--theme-main);
+	--chart-deviation-area: --fire-glow-2;
+	--chart-area-fill: rgba(176, 62, 247, 0.35);
+	
+	background-image: url(https://unterhunde.github.io/karl_the_mighty.github.io/images/octo-white.png)
+	
+	
 }
 
 /* ===== BASE STYLES ===== */
@@ -41,6 +59,11 @@ body {
 	color: var(--text-primary);
 	font-family: "Segoe UI", sans-serif;
 	overflow-x: hidden;
+	
+	background-image: url(https://unterhunde.github.io/karl_the_mighty.github.io/images/void.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 40% center;
 }
 
 /* ===== TYPOGRAPHY ===== */
@@ -64,59 +87,9 @@ h1, h2, h3 {
 	position: absolute;
 	inset: 0;
 	z-index: -1;
-	background-image: ur[](https://unterhunde.github.io/karl_the_mighty.github.io/images/void.gif);
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: 40% center;
+	
+	
 	pointer-events: none;
-}
-
-/* ===== THEMES ===== */
-html[data-theme="dark"] body .container::after {
-	clip-path: circle(150% at 0 0);
-}
-
-/* ===== NAVIGATION ===== */
-html[data-theme="dark"] body header.NavBar {
-	background: var(--gradient-navbar);
-}
-
-html[data-theme="dark"] body .ogs-nav-logo {
-	background-image: ur[](https://unterhunde.github.io/karl_the_mighty.github.io/images/octo-white.png) !important;
-}
-
-/* ===== BUTTONS ===== */
-button,
-.custom-stats {
-	background: var(--gradient-primary);
-	color: var(--text-primary);
-	border: 1px solid var(--theme-sub);
-	border-radius: var(--border-radius);
-	padding: 10px 20px;
-	font-weight: bold;
-	cursor: pointer;
-	box-shadow: var(--box-shadow-glow);
-	transition: all 0.3s ease;
-	position: relative;
-	overflow: hidden;
-}
-
-button:hover,
-.custom-stats:hover {
-	transform: translateY(-2px);
-	box-shadow: 0 0 20px var(--theme-main);
-	background-color: var(--theme-teal);
-}
-
-.custom-stats:hover {
-	background-color: --theme-teal; /* Temporary accent - can be replaced with color-3 if desired */
-}
-
-/* ===== CARDS ===== */
-html[data-theme="dark"] body .Card {
-	background-color: var(--bg-card) !important;
-	border-radius: var(--border-radius-large) !important;
-	border: 1px solid rgba(255,255,255,0.08);
 }
 
 /* ===== AVATAR & USERNAME ===== */
@@ -135,17 +108,6 @@ html[data-theme="dark"] body .Card {
 }
 
 /* ===== CHARTS ===== */
-:root {
-	--chart-weak-wins: rgba(255,255,255,0.5);
-	--chart-strong-wins: var(--color-5);
-	--chart-weak-losses: rgba(255,255,255,0.4);
-	--chart-strong-losses: rgba(255,255,255,0.85);
-	--chart-rating-line: var(--theme-main);
-	--chart-deviation-area: --fire-glow-2;
-	--chart-area-fill: rgba(176, 62, 247, 0.35);
-}
-
-/* Rating chart colors */
 .RatingsChart .weak-wins,
 .RatingsChartByGame .weak-wins { fill: var(--chart-weak-wins) !important; }
 
@@ -160,86 +122,3 @@ html[data-theme="dark"] body .Card {
 
 .RatingsChart .chart .rating.line,
 .RatingsChartByGame .chart .rating.line { stroke: var(--chart-rating-line) !important; }
-
-/* ===== TABLES (Game History) ===== */
-html[data-theme="dark"] body {
-	--table-bg-even: rgba(42, 31, 94, 0.6);
-	--table-bg-odd: rgba(76, 57, 170, 0.3);
-	--table-hover: rgba(255, 45, 0, 0.25);
-	--table-header: rgba(76, 57, 170, 0.9);
-	--table-border: rgba(255, 45, 0, 0.4);
-}
-
-.PaginatedTable.game-history-table,
-.PaginatedTable.review-history-table {
-	border-collapse: collapse;
-	width: 100%;
-	border-radius: 8px;
-	overflow: hidden;
-}
-
-html[data-theme="dark"] body .game-history-table thead,
-html[data-theme="dark"] body .review-history-table thead {
-	background-color: var(--table-header);
-	color: var(--text-primary);
-}
-
-html[data-theme="dark"] body .game-history-table tbody tr:nth-child(even) {
-	background-color: var(--table-bg-even);
-}
-
-html[data-theme="dark"] body .game-history-table tbody tr:nth-child(odd) {
-	background-color: var(--table-bg-odd);
-}
-
-html[data-theme="dark"] body .game-history-table tbody tr:hover,
-html[data-theme="dark"] body .review-history-table tbody tr:hover {
-	background-color: var(--table-hover);
-	transform: scale(1.01);
-}
-
-/* ===== ACTIVITY LINKS ===== */
-.Card.activity-card a {
-	background: linear-gradient(to right, var(--theme-main), var(--theme-sub));
-	color: var(--text-primary);
-	padding: 0.3rem 0.8rem;
-	border-radius: 6px;
-	position: relative;
-	overflow: hidden;
-	transition: transform 0.3s ease;
-}
-
-.Card.activity-card a:hover {
-	transform: scale(1.08);
-	box-shadow: 0 0 20px var(--theme-teal);
-}
-
-/* ===== FIRE GLOW EFFECT ON CARDS ===== */
-.Card {
-	box-shadow: 
-	0 0 15px rgba(76, 57, 170, 0.7),
-	0 0 30px rgba(76, 57, 170, 0.6);
-	animation: fire-glow 2.5s infinite alternate;
-}
-
-@keyframes fire-glow {
-	0%   { box-shadow: 0 0 15px rgba(76, 57, 170, 0.7), 0 0 30px gba(76, 57, 170, 0.6; }
-	100% { box-shadow: 0 0 25px rgba(76, 57, 170, 0.9), 0 0 40px rgba(76, 57, 170, 0.8); }
-}
-
-/* ===== SEARCH INPUT ===== */
-.search {
-	background-color: rgba(42, 31, 94, 0.8);
-	color: var(--text-primary);
-	border: 2px solid var(--theme-main);
-	border-radius: 13px;
-	padding: 8px 12px;
-}
-
-/* ===== UTILITIES ===== */
-.Player { color: var(--theme-teal) !important; }
-
-.sm {
-	color: --theme-teal !important;
-	background-color: rgba(76, 57, 170, 0.9) !important;
-}
