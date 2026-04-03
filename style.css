@@ -172,7 +172,7 @@ Card:has(.activity-card) {
 
 	box-shadow: var(--theme-box-shadows);
 }
-.GameList:has(.inner-container){
+.GameList .inner-container{
 	padding: 5px;
 }
 .GameHistoryTable {
