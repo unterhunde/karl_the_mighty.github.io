@@ -105,7 +105,6 @@ a:link, a:visited, a:hover, a:active{
 
 .avatar-container .username span {
 	animation: username_kapow 1s linear infinite ;
-
 }
 
 .avatar-container .username:hover span {
