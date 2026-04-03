@@ -114,7 +114,7 @@ a:link, a:visited, a:hover, a:active{
 	border: 4px solid #000;
 	border-radius: 25px;
 	padding: 10px;
-	width: 100px;
+	width: 150px;
 
 	color: var(--theme-text-color);
 	text-align: center;
@@ -137,13 +137,16 @@ a:link, a:visited, a:hover, a:active{
 
 /* Loop Animation */
 @keyframes float {
-  0%, 100% { transform: translateY(0) rotate(35deg); }
-  50% { transform: translateY(-15px) rotate(35deg); }
+  0%, 100% { transform: translateY(0) rotate(25deg); }
+  50% { transform: translateY(-15px) rotate(25deg); }
 }
 
 
 /* ===== Avatar and Username Area ===== */
 .avatar-container .username {
+	position: absolute;
+	top: 20px;
+	left: 20px;
 	color: var(--theme-blue);
 	text-shadow: var(--theme-text-shadows);
 }
