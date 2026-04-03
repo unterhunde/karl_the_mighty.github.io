@@ -18,7 +18,7 @@
 	min-height: 100vh;
 	min-width: 100vw;
 
-	background-size: 100% auto;
+	background-size: cover;
   	background-position: top left;
   	background-repeat: no-repeat;
 	background-image: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/leaves_on_water.gif');
