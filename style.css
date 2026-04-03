@@ -11,8 +11,7 @@
 
   /* Background Colors */
   --bg-dark: #040404;
-  --bg-primary-alpha: #ff24002e;
-  --bg-light-alpha: #ffffff78;
+  --bg-primary-alpha: #2a1f5e2e;
   --bg-card-dark: #4d0b00b5;
   --bg-card-light: #ffffffb0;
 
@@ -22,8 +21,8 @@
 
   /* Polices */
   --font-primary: "Segoe UI", sans-serif;
-  --font-display: 'Anime Ace 2.0 BB', cursive;
-  --font-decorative: 'Cinzel Decorative';
+  --font-display: "Segoe UI", sans-serif;
+  --font-decorative: "Segoe UI", sans-serif;
 
   /* Ombres et effets */
   --text-shadow: 1px 1px 1px #000;
