@@ -182,7 +182,7 @@ a:link, a:visited, a:hover, a:active{
 /* ===== Avatar and Username Area ===== */
 .username{
 	position: absolute;
-	top: 5px;
+	top: 100px;
 	left: 5px;
 }
 
