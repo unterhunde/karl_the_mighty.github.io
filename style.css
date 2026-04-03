@@ -59,11 +59,6 @@ body {
 	color: var(--text-primary);
 	font-family: "Segoe UI", sans-serif;
 	overflow-x: hidden;
-	
-	background-image: url(https://unterhunde.github.io/karl_the_mighty.github.io/images/void.gif);
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: 40% center;
 }
 
 /* ===== TYPOGRAPHY ===== */
@@ -107,18 +102,9 @@ h1, h2, h3 {
 	color: var(--theme-teal);
 }
 
-/* ===== CHARTS ===== */
-.RatingsChart .weak-wins,
-.RatingsChartByGame .weak-wins { fill: var(--chart-weak-wins) !important; }
-
-.RatingsChart .strong-wins,
-.RatingsChartByGame .strong-wins { fill: var(--chart-strong-wins) !important; }
-
-.RatingsChart .weak-losses,
-.RatingsChartByGame .weak-losses { fill: var(--chart-weak-losses) !important; }
-
-.RatingsChart .strong-losses,
-.RatingsChartByGame .strong-losses { fill: var(--chart-strong-losses) !important; }
-
-.RatingsChart .chart .rating.line,
-.RatingsChartByGame .chart .rating.line { stroke: var(--chart-rating-line) !important; }
+.profile-card {
+	background-image: url(https://unterhunde.github.io/karl_the_mighty.github.io/images/void.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 40% center;
+}
