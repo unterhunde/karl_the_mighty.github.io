@@ -116,7 +116,7 @@ a:link, a:visited, a:hover, a:active{
 	padding: 10px;
 	width: 150px;
 
-	color: var(--theme-text-color);
+	color: var(--theme-background);
 	text-align: center;
 	font-family: 'Comic Sans MS', sans-serif;
 	font-size: 22;
