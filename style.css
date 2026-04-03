@@ -180,10 +180,10 @@ a:link, a:visited, a:hover, a:active{
 	color: var(--theme-blue);
 	text-shadow: var(--theme-text-shadows);
 
-	transform: rotate(-90);
+	transform: rotate(-90deg);
 }
 
-.Player-username span{
+.avatar-container .username span .Player-username span{
 	position: absolute;
 	top: 100px;
 	left: 5px;
