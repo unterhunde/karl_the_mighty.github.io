@@ -217,14 +217,16 @@ html[data-theme="dark"] body .review-history-table tbody tr:hover {
 /* ===== FIRE GLOW EFFECT ON CARDS ===== */
 .Card {
 	box-shadow: 
-	0 0 15px --fire-glow-1,
-	0 0 30px --fire-glow-2;
+	0 0 15px rgba(76, 57, 170, 0.7),
+	0 0 30px rgba(76, 57, 170, 0.6);
 	animation: fire-glow 2.5s infinite alternate;
 }
 
 @keyframes fire-glow {
-	0%   { box-shadow: 0 0 15px --fire-glow-1, 0 0 30px --fire-glow-2; }
-	100% { box-shadow: 0 0 25px--fire-glow-3, 0 0 40px --fire-glow-4; }
+		--fire-glow-3: rgba(76, 57, 170, 0.9);
+	--fire-glow-4: rgba(76, 57, 170, 0.8);
+	0%   { box-shadow: 0 0 15px rgba(76, 57, 170, 0.7), 0 0 30px gba(76, 57, 170, 0.6; }
+	100% { box-shadow: 0 0 25px rgba(76, 57, 170, 0.9), 0 0 40px rgba(76, 57, 170, 0.8); }
 }
 
 /* ===== SEARCH INPUT ===== */
@@ -240,6 +242,6 @@ html[data-theme="dark"] body .review-history-table tbody tr:hover {
 .Player { color: var(--theme-teal) !important; }
 
 .sm {
-	color: #550000 !important;
-	background-color: rgba(87, 15, 3, 0.9) !important;
+	color: --theme-teal !important;
+	background-color: rgba(76, 57, 170, 0.9) !important;
 }
