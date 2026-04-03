@@ -17,11 +17,13 @@
 	z-index: 0;
 	min-height: 100vh;
 	min-width: 100vw;
+
 	background-color: var(--theme-deep);
-	background-image: url('https://unterhunde.github.io/karl_the_mighty.github.io/kameha.gif');
 	background-size: 100% auto;
   	background-position: top left;
   	background-repeat: no-repeat;
+	background-image: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/kameha.gif');
+
 }
 
 .container::after {
