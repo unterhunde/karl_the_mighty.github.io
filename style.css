@@ -36,6 +36,8 @@ a:link, a:visited, a:hover, a:active{
 	min-width: 100vw;
 
 	background-color: transparent;
+	border: var(--theme-borders);
+	box-shadow: var(--theme-box-shadows);
 	border: 10px solid var(--theme-lime);
 
 	background-size: cover;
@@ -56,6 +58,12 @@ a:link, a:visited, a:hover, a:active{
 	background-color: transparent;
 	border: var(--theme-borders);
 	box-shadow: var(--theme-box-shadows);
+	border: 10px solid var(--theme-lime);
+
+	background-size: cover;
+	background-repeat: no-repeat;
+  	background-position: top left;
+	background-image: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/leafonwater2.gif');
 }
 
 
