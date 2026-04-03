@@ -39,7 +39,7 @@ a:link, a:visited, a:hover, a:active{
 }
 
 .test-container {
-	position: relative;
+	position: absolute;
 	z-index: 0;
 	max-width: 200vw;
 	max-height: 100vh;
