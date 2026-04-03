@@ -5,14 +5,14 @@
   /* Main Colors */
   --primary-color: #4c39aa;
   --secondary-color: #2a1f5e;
-  --gradient-primary: linear-gradient(45deg, #ff2d00, #ff8c00);
+  --gradient-primary: linear-gradient(45deg, #ff2d00, #4c39aa);
   --gradient-navbar-dark: linear-gradient(45deg, #3b2c84, #75842c);
   --gradient-navbar-light: linear-gradient(45deg, #3b2c84, #75842c);
 
   /* Background Colors */
   --bg-dark: #040404;
   --bg-primary-alpha: #2a1f5e2e;
-  --bg-card-dark: #4d0b00b5;
+  --bg-card-dark: #4c39aab5;
   --bg-card-light: #ffffffb0;
 
   /* Background Images*/
@@ -26,7 +26,7 @@
 
   /* Ombres et effets */
   --text-shadow: 1px 1px 1px #000;
-  --box-shadow-glow: 0 0 10px #4c39aa, 0 0 20px #ff8c00 inset;
+  --box-shadow-glow: 0 0 10px #4c39aa, 0 0 20px #4c39aa inset;
   --border-radius: 10px;
   --border-radius-large: 10px;
 }
@@ -353,13 +353,13 @@ html[data-theme="dark"] body {
   --flame-dark-row-odd-bg: #4f0000;
   --flame-dark-row-hover-bg-general: #772424;
   --flame-dark-row-hover-bg-clickable: #69000096;
-  --flame-dark-glow-color1: #ff8c00;
+  --flame-dark-glow-color1: #4c39aa;
   --flame-dark-glow-color2: #4c39aa;
   --flame-dark-border-color: #4c39aa;
   --flame-dark-date-text-color: #ffde5b;
   --flame-dark-won-result-color: #7aff7a;
   --flame-dark-lost-result-color: #ff6b6b;
-  --flame-dark-header-glow: 0 0 10px #ff8c00, 0 0 20px #4c39aa;
+  --flame-dark-header-glow: 0 0 10px #4c39aa, 0 0 20px #4c39aa;
   --flame-dark-header-border: 4px solid #4c39aa;
 }
 
@@ -465,7 +465,7 @@ html[data-theme="dark"] body .game-history-table td.library-lost-result-unranked
   font-weight: bold;
   text-decoration: none;
   padding: 0.2rem 0.5rem;
-  background: linear-gradient(to right, #4c39aa, #ff8c00);
+  background: linear-gradient(to right, #4c39aa, #4c39aa);
   border-radius: 6px;
   transition: transform 0.8s cubic-bezier(0.68, -0.55, 0.27, 1.55);
   z-index: 1;
@@ -476,7 +476,7 @@ html[data-theme="dark"] body .game-history-table td.library-lost-result-unranked
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(90deg, #ff3d00, #ff8c00, #ffc107, #ff8c00, #ff3d00);
+  background: linear-gradient(90deg, #ff3d00, #4c39aa, #ffc107, #4c39aa, #ff3d00);
   background-size: 300% 100%;
   animation: molten-flow 5s linear infinite;
   filter: blur(10px);
