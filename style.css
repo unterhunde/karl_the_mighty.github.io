@@ -1,150 +1,148 @@
 /* === OGS Custom Profile Theme – Refactored with 5 Colors === */
 
 :root {
-  /* ==================== ONLY 5 COLORS ==================== */
-  --theme-main: #4c39aa;   /* Primary Purple (main accent) */
-  --theme-sub: #2a1f5e;   /* Dark Purple (secondary/deep) */
-  --theme-teal: #3997aa;   /* Teal */
-  --theme-deep: #040404;   /* Deep Black (background) */
-  --color-5: #aa4c39;   /* White (text/highlights) */
+/* ==================== ONLY 5 COLORS ==================== */
+	--theme-main: #4c39aa;   /* Primary Purple (main accent) */
+	--theme-sub: #2a1f5e;   /* Dark Purple (secondary/deep) */
+	--theme-teal: #3997aa;   /* Teal */
+	--theme-deep: #040404;   /* Deep Black (background) */
+	--color-5: #aa4c39;   /* White (text/highlights) */
 
-  /* Derived colors using the 5 base colors */
-  --gradient-primary: linear-gradient(45deg, var(--theme-teal), var(--theme-main));
-  --gradient-navbar: linear-gradient(45deg, var(--theme-sub), #5a4a9e); /* slight mix for navbar */
+	/* Derived colors using the 5 base colors */
+	--gradient-primary: linear-gradient(45deg, var(--theme-teal), var(--theme-main));
+	--gradient-navbar: linear-gradient(45deg, var(--theme-sub), #5a4a9e); /* slight mix for navbar */
 
-  --bg-dark: var(--theme-deep);
-  --bg-card: rgba(76, 57, 170, 0.75);     /* color-1 with alpha */
-  --bg-card-light: rgba(255, 255, 255, 0.12);
+	--bg-dark: var(--theme-deep);
+	--bg-card: rgba(76, 57, 170, 0.75);     /* color-1 with alpha */
+	--bg-card-light: rgba(255, 255, 255, 0.12);
 
-  --text-primary: var(--color-5);
-  --text-muted: #b0b0b0;
+	--text-primary: var(--color-5);
+	--text-muted: #b0b0b0;
 
-  /* Effects */
-   --fire-glow-1: rgba(76,57,170, 0.7);
-  --fire-glow-2: rgba(76, 57, 170, 0.6);
-  
-  --border-radius: 10px;
-  --border-radius-large: 12px;
-  --box-shadow-glow: 0 0 12px var(--theme-main), 0 0 25px --fire-glow-2;
-  --text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-  
+	/* Effects */
+	--fire-glow-1: --bg-card;
+	--fire-glow-2: rgba(76, 57, 170, 0.6);
+	--fire-glow-3: rgba(76, 57, 170, 0.9);
+	--fire-glow-4: rgba(76, 57, 170, 0.8);
 
-  
-  
+	--border-radius: 10px;
+	--border-radius-large: 12px;
+	--box-shadow-glow: 0 0 12px var(--theme-main), 0 0 25px --fire-glow-2;
+	--text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
 /* ===== BASE STYLES ===== */
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  background-color: var(--bg-dark);
-  color: var(--text-primary);
-  font-family: "Segoe UI", sans-serif;
-  overflow-x: hidden;
+	background-color: var(--bg-dark);
+	color: var(--text-primary);
+	font-family: "Segoe UI", sans-serif;
+	overflow-x: hidden;
 }
 
 /* ===== TYPOGRAPHY ===== */
 h1, h2, h3 {
-  color: var(--theme-main);
-  text-shadow: var(--text-
-  );
-  letter-spacing: 1px;
+	color: var(--theme-main);
+	text-shadow: var(--text-
+	);
+	letter-spacing: 1px;
 }
 
 /* ===== MAIN CONTAINER ===== */
 .container {
-  position: relative;
-  z-index: 0;
-  min-height: 100vh;
-  min-width: 100vw;
+	position: relative;
+	z-index: 0;
+	min-height: 100vh;
+	min-width: 100vw;
 }
 
 .container::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background-image: ur[](https://unterhunde.github.io/karl_the_mighty.github.io/images/void.gif);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 40% center;
-  pointer-events: none;
+	content: '';
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+	background-image: ur[](https://unterhunde.github.io/karl_the_mighty.github.io/images/void.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 40% center;
+	pointer-events: none;
 }
 
 /* ===== THEMES ===== */
 html[data-theme="dark"] body .container::after {
-  clip-path: circle(150% at 0 0);
+	clip-path: circle(150% at 0 0);
 }
 
 /* ===== NAVIGATION ===== */
 html[data-theme="dark"] body header.NavBar {
-  background: var(--gradient-navbar);
+	background: var(--gradient-navbar);
 }
 
 html[data-theme="dark"] body .ogs-nav-logo {
-  background-image: ur[](https://unterhunde.github.io/karl_the_mighty.github.io/images/octo-white.png) !important;
+	background-image: ur[](https://unterhunde.github.io/karl_the_mighty.github.io/images/octo-white.png) !important;
 }
 
 /* ===== BUTTONS ===== */
 button,
 .custom-stats {
-  background: var(--gradient-primary);
-  color: var(--text-primary);
-  border: 1px solid var(--theme-sub);
-  border-radius: var(--border-radius);
-  padding: 10px 20px;
-  font-weight: bold;
-  cursor: pointer;
-  box-shadow: var(--box-shadow-glow);
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
+	background: var(--gradient-primary);
+	color: var(--text-primary);
+	border: 1px solid var(--theme-sub);
+	border-radius: var(--border-radius);
+	padding: 10px 20px;
+	font-weight: bold;
+	cursor: pointer;
+	box-shadow: var(--box-shadow-glow);
+	transition: all 0.3s ease;
+	position: relative;
+	overflow: hidden;
 }
 
 button:hover,
 .custom-stats:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 0 20px var(--theme-main);
-  background-color: var(--theme-teal);
+	transform: translateY(-2px);
+	box-shadow: 0 0 20px var(--theme-main);
+	background-color: var(--theme-teal);
 }
 
 .custom-stats:hover {
-  background-color: --theme-teal; /* Temporary accent - can be replaced with color-3 if desired */
+	background-color: --theme-teal; /* Temporary accent - can be replaced with color-3 if desired */
 }
 
 /* ===== CARDS ===== */
 html[data-theme="dark"] body .Card {
-  background-color: var(--bg-card) !important;
-  border-radius: var(--border-radius-large) !important;
-  border: 1px solid rgba(255,255,255,0.08);
+	background-color: var(--bg-card) !important;
+	border-radius: var(--border-radius-large) !important;
+	border: 1px solid rgba(255,255,255,0.08);
 }
 
 /* ===== AVATAR & USERNAME ===== */
 .avatar-container .username {
-  color: var(--theme-main);
-  text-shadow: var(--text-shadow);
+	color: var(--theme-main);
+	text-shadow: var(--text-shadow);
 }
 
 .avatar-container .username span {
-  transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 .avatar-container .username:hover span {
-  transform: scale(1.4) rotate(10deg);
-  color: var(--theme-teal);
+	transform: scale(1.4) rotate(10deg);
+	color: var(--theme-teal);
 }
 
 /* ===== CHARTS ===== */
 :root {
-  --chart-weak-wins: rgba(255,255,255,0.5);
-  --chart-strong-wins: var(--color-5);
-  --chart-weak-losses: rgba(255,255,255,0.4);
-  --chart-strong-losses: rgba(255,255,255,0.85);
-  --chart-rating-line: var(--theme-main);
-  --chart-deviation-area: --fire-glow-2;
-  --chart-area-fill: rgba(176, 62, 247, 0.35);
+	--chart-weak-wins: rgba(255,255,255,0.5);
+	--chart-strong-wins: var(--color-5);
+	--chart-weak-losses: rgba(255,255,255,0.4);
+	--chart-strong-losses: rgba(255,255,255,0.85);
+	--chart-rating-line: var(--theme-main);
+	--chart-deviation-area: --fire-glow-2;
+	--chart-area-fill: rgba(176, 62, 247, 0.35);
 }
 
 /* Rating chart colors */
@@ -165,83 +163,83 @@ html[data-theme="dark"] body .Card {
 
 /* ===== TABLES (Game History) ===== */
 html[data-theme="dark"] body {
-  --table-bg-even: rgba(42, 31, 94, 0.6);
-  --table-bg-odd: rgba(76, 57, 170, 0.3);
-  --table-hover: rgba(255, 45, 0, 0.25);
-  --table-header: rgba(76, 57, 170, 0.9);
-  --table-border: rgba(255, 45, 0, 0.4);
+	--table-bg-even: rgba(42, 31, 94, 0.6);
+	--table-bg-odd: rgba(76, 57, 170, 0.3);
+	--table-hover: rgba(255, 45, 0, 0.25);
+	--table-header: rgba(76, 57, 170, 0.9);
+	--table-border: rgba(255, 45, 0, 0.4);
 }
 
 .PaginatedTable.game-history-table,
 .PaginatedTable.review-history-table {
-  border-collapse: collapse;
-  width: 100%;
-  border-radius: 8px;
-  overflow: hidden;
+	border-collapse: collapse;
+	width: 100%;
+	border-radius: 8px;
+	overflow: hidden;
 }
 
 html[data-theme="dark"] body .game-history-table thead,
 html[data-theme="dark"] body .review-history-table thead {
-  background-color: var(--table-header);
-  color: var(--text-primary);
+	background-color: var(--table-header);
+	color: var(--text-primary);
 }
 
 html[data-theme="dark"] body .game-history-table tbody tr:nth-child(even) {
-  background-color: var(--table-bg-even);
+	background-color: var(--table-bg-even);
 }
 
 html[data-theme="dark"] body .game-history-table tbody tr:nth-child(odd) {
-  background-color: var(--table-bg-odd);
+	background-color: var(--table-bg-odd);
 }
 
 html[data-theme="dark"] body .game-history-table tbody tr:hover,
 html[data-theme="dark"] body .review-history-table tbody tr:hover {
-  background-color: var(--table-hover);
-  transform: scale(1.01);
+	background-color: var(--table-hover);
+	transform: scale(1.01);
 }
 
 /* ===== ACTIVITY LINKS ===== */
 .Card.activity-card a {
-  background: linear-gradient(to right, var(--theme-main), var(--theme-sub));
-  color: var(--text-primary);
-  padding: 0.3rem 0.8rem;
-  border-radius: 6px;
-  position: relative;
-  overflow: hidden;
-  transition: transform 0.3s ease;
+	background: linear-gradient(to right, var(--theme-main), var(--theme-sub));
+	color: var(--text-primary);
+	padding: 0.3rem 0.8rem;
+	border-radius: 6px;
+	position: relative;
+	overflow: hidden;
+	transition: transform 0.3s ease;
 }
 
 .Card.activity-card a:hover {
-  transform: scale(1.08);
-  box-shadow: 0 0 20px var(--theme-teal);
+	transform: scale(1.08);
+	box-shadow: 0 0 20px var(--theme-teal);
 }
 
 /* ===== FIRE GLOW EFFECT ON CARDS ===== */
 .Card {
-  box-shadow: 
-    0 0 15px --fire-glow-1,
-    0 0 30px --fire-glow-2;
-  animation: fire-glow 2.5s infinite alternate;
+	box-shadow: 
+	0 0 15px --fire-glow-1,
+	0 0 30px --fire-glow-2;
+	animation: fire-glow 2.5s infinite alternate;
 }
 
 @keyframes fire-glow {
-  0%   { box-shadow: 0 0 15px --fire-glow-1, 0 0 30px --fire-glow-2; }
-  100% { box-shadow: 0 0 25px rgba(255, 100, 0, 0.9), 0 0 40px rgba(76, 57, 170, 0.8); }
+	0%   { box-shadow: 0 0 15px --fire-glow-1, 0 0 30px --fire-glow-2; }
+	100% { box-shadow: 0 0 25px--fire-glow-3, 0 0 40px --fire-glow-4; }
 }
 
 /* ===== SEARCH INPUT ===== */
 .search {
-  background-color: rgba(42, 31, 94, 0.8);
-  color: var(--text-primary);
-  border: 2px solid var(--theme-main);
-  border-radius: 13px;
-  padding: 8px 12px;
+	background-color: rgba(42, 31, 94, 0.8);
+	color: var(--text-primary);
+	border: 2px solid var(--theme-main);
+	border-radius: 13px;
+	padding: 8px 12px;
 }
 
 /* ===== UTILITIES ===== */
 .Player { color: var(--theme-teal) !important; }
 
 .sm {
-  color: #550000 !important;
-  background-color: rgba(87, 15, 3, 0.9) !important;
+	color: #550000 !important;
+	background-color: rgba(87, 15, 3, 0.9) !important;
 }
