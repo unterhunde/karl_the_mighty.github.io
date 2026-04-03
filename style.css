@@ -45,7 +45,6 @@ a:link, a:visited, a:hover, a:active{
 	background: transparent !important;
 	border: none !important;
 	box-shadow: none !important;
-
 }
 
 /* Fill out basic container properties. */
@@ -67,6 +66,12 @@ a:link, a:visited, a:hover, a:active{
 	background-repeat: no-repeat;
   	background-position: top left;
 	background-image: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/dfire.gif');
+
+	font-family: 'Cinzel', serif !important;
+  	font-size: 12px !important;
+	text-shadow: var(--theme-text-shadows) !important;
+
+
 
 }
 
