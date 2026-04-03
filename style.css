@@ -2,28 +2,31 @@
 
 :root {
 /* ==================== ONLY 5 COLORS ==================== */
-	--background: #2e2e2e;
-	--commments: #797979;
-	--white: #d6d6d6;
-	--yellow: #e5b567;
-	--green: #b4d273;
-	--orange: #e87d3e;
-	--purple: #9e86c8;
-	--pink: #b05279;
-	--blue: #6c99bb;
+	--theme-background: #2e2e2e;
+	--theme-commments: #797979;
+	--theme-white: #d6d6d6;
+	--theme-yellow: #e5b567;
+	--theme-lime: #b4d273;
+	--theme-orange: #e87d3e;
+	--theme-purple: #9e86c8;
+	--theme-pink: #b05279;
+	--theme-blue: #6c99bb;
 
-	color: #97aa39;
-	background-color: #2e2e2e;
+	--theme-text-shadows: 2px 2px 4px rgba(0, 0, 0, 0.8);
+	--theme-box-shadows: 2px 2px 10px rgba(0, 0, 0, 0.8);
+
+	color: var(--theme-lime);
+	background-color: var(--theme-background);
 
 	font-family: 'Lucida Console', sans-serif;
   	font-size: 16px;
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+	text-shadow: var(--theme-text-shadows);
 
 
 }
 
 a:link, a:visited, a:hover, a:active{
-	color: #9e86c8;
+	color: var(--theme-blue);
 }
 .container {
 	position: relative;
@@ -32,7 +35,7 @@ a:link, a:visited, a:hover, a:active{
 	min-width: 100vw;
 
 	background-color: transparent;
-	border: 10px solid #97aa39;
+	border: 10px solid var(--theme-lime);
 
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -50,15 +53,15 @@ a:link, a:visited, a:hover, a:active{
 	height: 50%;
 
 	background-color: transparent;
-	border: 2px solid #97aa39;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+	border: 2px solid var(--theme-lime);
+	box-shadow: var(--theme-box-shadows);
 }
 
 
 /* ===== AVATAR & USERNAME ===== */
 .avatar-container .username {
-	color: var(--theme-main);
-	text-shadow: var(--text-shadow);
+	color: var(--theme-blue);
+	text-shadow: var(--theme-text-shadows);
 }
 
 .avatar-container .username span {
@@ -67,5 +70,5 @@ a:link, a:visited, a:hover, a:active{
 
 .avatar-container .username:hover span {
 	transform: scale(1.4) rotate(10deg);
-	color: var(--theme-teal);
+	color: var(--theme-orange);
 }
