@@ -14,7 +14,7 @@
 
 	/* Cards and Sub-Containers*/
 	--theme-background-alpha: rgba(46,46,46, 0.9);
-	--theme-border-radius: 20px;
+	--theme-border-radius: 12px;
 
 	--theme-text-shadows: 2px 2px 4px rgba(0, 0, 0, 0.9);
 	--theme-box-shadows: 2px 2px 15px rgba(0, 0, 0, 0.9);
