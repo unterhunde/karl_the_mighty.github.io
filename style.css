@@ -104,12 +104,7 @@ a:link, a:visited, a:hover, a:active{
 }
 
 .avatar-container .username span {
-	animation: username_kapow 1s linear infinite alternate;
-}
-
-.avatar-container .username:hover span {
-	transform: scale(1.4) rotate(10deg);
-	color: var(--theme-orange);
+	animation: username_kapow 0.5s linear infinite alternate;
 }
 
 @keyframes username_kapow {
