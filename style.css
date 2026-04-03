@@ -67,7 +67,12 @@ h3 {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background-repeat: repeat;
+      /* centers the image element itself */
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  
+  background-repeat: no-repeat;
   background-size: contain;
   background-position: 40 center;
   transition: clip-path 2s cubic-bezier(1, 0, 0, 1);
@@ -80,11 +85,6 @@ h3 {
 
 .container::after {
   background-image: var(--bg-dark);
-    /* centers the image element itself */
-  display: flex;     
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
 
 }
 
@@ -249,13 +249,13 @@ html[data-theme="dark"] body .Card {
 /* ===== CHARTS AND DATA ===== */
 /* Variables for chart colors */
 :root {
-  --chart-weak-wins: #a5077787;
-  --chart-strong-wins: rgba(255, 36, 0, 0.48);
-  --chart-weak-losses: #1b0f1b85;
-  --chart-strong-losses: #5299ffb8;
+  --chart-weak-wins: #ffffff87;
+  --chart-strong-wins: ffffffff;
+  --chart-weak-losses: #ffffff85;
+  --chart-strong-losses: #ffffffb8;
   --chart-rating-line: var(--primary-color);
-  --chart-deviation-area: #6c0f00b0;
-  --chart-area-fill: #ff24005e;
+  --chart-deviation-area: #43006cb0;
+  --chart-area-fill: #b03ef75e;
 }
 
 /* Rating charts */
