@@ -172,7 +172,7 @@ a:link, a:visited, a:hover, a:active{
 
 /* ===== Avatar and Username Area ===== */
 
-.avatar-container .username {
+.Player-username {
 	position: absolute;
 	top: 100px;
 	left: 5px;
@@ -183,7 +183,7 @@ a:link, a:visited, a:hover, a:active{
 	transform: rotate(-90);
 }
 
-.avatar-container .username span {
+.Player-username {
 	animation: username_kapow 0.5s linear infinite alternate;
 }
 
