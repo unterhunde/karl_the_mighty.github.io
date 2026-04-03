@@ -2,18 +2,24 @@
 
 :root {
 /* ==================== ONLY 5 COLORS ==================== */
-	--theme-main: #4c39aa;   /* Primary Purple (main accent) */
-	--theme-rust: #aa4c39;   /* Rust (secondary/deep) */
-	--theme-dlime: #97aa39;   /* Dark Lime */
-	--theme-deep: #040404;   /* Deep Black (background) */
-	--theme-text: #97aa39;   /* White (text/highlights) */
-	--theme-text-muted: #b0b0b0;
+	--background: #2e2e2e;
+	--commments: #797979;
+	--white: #d6d6d6;
+	--yellow: #e5b567;
+	--green: #b4d273;
+	--orange: #e87d3e;
+	--purple: #9e86c8;
+	--pink: #b05279;
+	--blue: #6c99bb;
 
-	--text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+	color: #97aa39;
+	background-color: #2e2e2e;
 
 	font-family: 'Lucida Console', sans-serif;
   	font-size: 16px;
-  	color: var(--theme-text);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+
+
 }
 
 .container {
