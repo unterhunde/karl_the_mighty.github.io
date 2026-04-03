@@ -210,7 +210,7 @@ a:link, a:visited, a:hover, a:active{
 
 	transform: rotate(-90deg);
 
-	animation: username_kapow 0.5s linear infinite alternate;
+	animation: username_kapow 0.25s linear infinite alternate;
 }
 
 @keyframes username_kapow {
