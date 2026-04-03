@@ -41,7 +41,7 @@ a:link, a:visited, a:hover, a:active{
 }
 
 /* Hide top level Card effects. */
-.Card {
+.Card *{
 	background: transparent !important;
 	border: none !important;
 	box-shadow: none !important;
