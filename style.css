@@ -34,9 +34,8 @@ a:link, a:visited, a:hover, a:active{
 	z-index: 0;
 	top: 10px;
 	left: 10px;
-	height: auto;
-	width: 100%;
 
+	background-size: 100% auto;
 	background-color: transparent;
 	border: var(--theme-borders);
 	box-shadow: var(--theme-box-shadows);
