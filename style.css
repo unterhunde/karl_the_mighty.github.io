@@ -50,7 +50,7 @@ a:link, a:visited, a:hover, a:active{
 	height: 50%;
 
 	background-color: transparent;
-	border: 10px solid #97aa39;
+	border: 2px solid #97aa39;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
