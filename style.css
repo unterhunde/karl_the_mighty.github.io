@@ -4,12 +4,16 @@
 /* ==================== ONLY 5 COLORS ==================== */
 	--theme-main: #4c39aa;   /* Primary Purple (main accent) */
 	--theme-rust: #aa4c39;   /* Rust (secondary/deep) */
-	--theme-teal: #3997aa;   /* Teal */
+	--theme-dlime: #97aa39;   /* Dark Lime */
 	--theme-deep: #040404;   /* Deep Black (background) */
-	--theme-text: #aa4c39;   /* White (text/highlights) */
+	--theme-text: #97aa39;   /* White (text/highlights) */
 	--theme-text-muted: #b0b0b0;
 
 	--text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+
+	font-family: 'Lucida Console', sans-serif;
+  	font-size: 16px;
+  	color: var(--theme-text);
 }
 
 .container {
@@ -23,6 +27,13 @@
   	background-position: top left;
 	background-image: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/leafonwater2.gif');
 
+}
+
+.ratings-container {
+	position: relative;
+	z-index: 0;
+
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .container::after {
