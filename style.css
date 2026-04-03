@@ -14,6 +14,7 @@
 
 	--theme-text-shadows: 2px 2px 4px rgba(0, 0, 0, 0.9);
 	--theme-box-shadows: 2px 2px 15px rgba(0, 0, 0, 0.9);
+	--theme-borders: 1px solid var(--theme-lime);
 
 	color: var(--theme-lime);
 	background-color: var(--theme-background);
@@ -53,7 +54,7 @@ a:link, a:visited, a:hover, a:active{
 	height: 50%;
 
 	background-color: transparent;
-	border: 2px solid var(--theme-lime);
+	border: var(--theme-borders);
 	box-shadow: var(--theme-box-shadows);
 }
 
