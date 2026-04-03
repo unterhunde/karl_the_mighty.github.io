@@ -137,6 +137,11 @@ a:link, a:visited, a:hover, a:active{
   50% { transform: translateY(-15px) rotate(25deg); }
 }
 
+.Card {
+	background: transparent;
+	border: none;
+}
+
 .GameList {
 	position: relative;
 
