@@ -225,7 +225,7 @@ a:link, a:visited, a:hover, a:active{
 
 	transform: rotate(-90deg);
 
-	animation: username_kapow 0.25s linear infinite alternate;
+	animation: username_kapow 0.05s linear infinite alternate;
 }
 
 @keyframes username_kapow {
@@ -234,7 +234,7 @@ a:link, a:visited, a:hover, a:active{
 		color: var(--theme-text-color);
 	}
 	to {
-		transform: scale(1.4) rotate(-80deg);
+		transform: scale(1.2) rotate(-90deg);
 		color: var(--theme-orange);
 	}
 }
