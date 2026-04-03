@@ -30,10 +30,12 @@ a:link, a:visited, a:hover, a:active{
 	color: var(--theme-blue);
 }
 .container {
-	position: relative;
+	position: absolute;
 	z-index: 0;
-	min-height: 100vh;
-	min-width: 100vw;
+	top: 50px;
+	left: 50px;
+	width: 50%;
+	height: 50%;
 
 	background-color: transparent;
 	border: var(--theme-borders);
