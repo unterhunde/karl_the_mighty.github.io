@@ -44,10 +44,10 @@ a:link, a:visited, a:hover, a:active{
 .test-container {
 	position: absolute;
 	z-index: 0;
-	max-width: 50vw;
-	max-height: 50vh;
-	min-height: 100vh;
-	min-width: 100vw;
+	top: 50px;
+	left: 50px;
+	width: 50%;
+	height: 50%;
 
 	background-color: transparent;
 	border: 10px solid #97aa39;
