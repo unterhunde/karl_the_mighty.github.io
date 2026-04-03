@@ -39,18 +39,14 @@ a:link, a:visited, a:hover, a:active{
 	color: var(--theme-blue);
 }
 
-.test-container {
-	position: absolute;
-	z-index: 0;
-	top: 10px;
-	left: 10px;
-
-	background-size: 100% auto;
-	background-color: var(--theme-blue);
-	border: var(--theme-borders);
-	box-shadow: var(--theme-box-shadows);
+/* Hide top level Card effects. */
+.Card {
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
 }
 
+/* Fill out basic container properties. */
 .container {
 	position: relative;
 	z-index: 0;
@@ -72,6 +68,7 @@ a:link, a:visited, a:hover, a:active{
 
 }
 
+/* ===== Ratings Containera ===== */
 .ratings-container {
 	position: relative;
 
@@ -131,18 +128,13 @@ a:link, a:visited, a:hover, a:active{
   border-color: var(--theme-bubble-background) transparent transparent;
 }
 
-/* Loop Animation */
+/* Animation for About Container. */
 @keyframes float {
   0%, 100% { transform: translateY(0) rotate(25deg); }
   50% { transform: translateY(-15px) rotate(25deg); }
 }
 
-.Card {
-	background: transparent !important;
-	border: none !important;
-	box-shadow: none !important;
-}
-
+/* ===== Game List and History Containers ===== */
 .GameList {
 	position: relative;
 
@@ -186,7 +178,7 @@ a:link, a:visited, a:hover, a:active{
 }
 
 /* ===== Avatar and Username Area ===== */
-.Player-rank {
+.avatar-container .Player-rank {
 	position:absolute;
 	top: 0px;
 	left: 0px;
