@@ -125,7 +125,7 @@ a:link, a:visited, a:hover, a:active{
   left: 50px;
   border-width: 20px 20px 0;
   border-style: solid;
-  border-color: #000 transparent transparent;
+  border-color: var(--theme-white) transparent transparent;
 }
 
 /* Loop Animation */
