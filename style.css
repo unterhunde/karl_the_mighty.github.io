@@ -3,7 +3,7 @@
 :root {
 /* ==================== ONLY 5 COLORS ==================== */
 	--theme-main: #4c39aa;   /* Primary Purple (main accent) */
-	--theme-sub: #2a1f5e;   /* Dark Purple (secondary/deep) */
+	--theme-rust: #aa4c39;   /* Rust (secondary/deep) */
 	--theme-teal: #3997aa;   /* Teal */
 	--theme-deep: #040404;   /* Deep Black (background) */
 	--theme-text: #aa4c39;   /* White (text/highlights) */
@@ -12,19 +12,16 @@
 	--text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
-/* ===== MAIN CONTAINER ===== */
-html[data-theme="dark"] body::before,
-html[data-theme="dark"] body::after {
-		
-}
-
 .container {
 	position: relative;
 	z-index: 0;
 	min-height: 100vh;
 	min-width: 100vw;
 	
-	background-color: var(--theme-teal);
+  background-image: url('https://unterhunde.github.io/karl_the_mighty.github.io/kameha.jpg');
+   background-size: 100% auto;
+  background-position: top left; 
+  background-repeat: no-repeat;
 }
 
 .container::after {
