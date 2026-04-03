@@ -41,7 +41,7 @@ a:link, a:visited, a:hover, a:active{
 	left: 10px;
 
 	background-size: 100% auto;
-	background-color: var(--theme-background-alpha);
+	background-color: var(--theme-blue);
 	border: var(--theme-borders);
 	box-shadow: var(--theme-box-shadows);
 }
