@@ -45,6 +45,10 @@ a:link, a:visited, a:hover, a:active{
 	background: transparent !important;
 	border: none !important;
 	box-shadow: none !important;
+
+	font-family: 'Cinzel', serif;
+  	font-size: 12px;
+	text-shadow: var(--theme-text-shadows);
 }
 
 /* Fill out basic container properties. */
