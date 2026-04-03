@@ -16,11 +16,13 @@
 	--theme-background-alpha: rgba(46,46,46, 0.9);
 	--theme-border-radius: 12px;
 
+	--theme-text-color: var(--theme-yellow);
 	--theme-text-shadows: 2px 2px 4px rgba(0, 0, 0, 0.9);
 	--theme-box-shadows: 2px 2px 15px rgba(0, 0, 0, 0.9);
 	--theme-borders: 1px solid var(--theme-lime);
 
-	color: var(--theme-yellow);
+	/* Set up defaults */
+	color: var(--theme-text-color);
 	background-color: var(--theme-background);
 
 	font-family: 'Lucida Console', sans-serif;
@@ -108,4 +110,15 @@ a:link, a:visited, a:hover, a:active{
 .avatar-container .username:hover span {
 	transform: scale(1.4) rotate(10deg);
 	color: var(--theme-orange);
+}
+
+@keyframes username_kapow {
+	from {
+		transform: scale(1) rotate(0deg);
+		color: var(--theme-yellow);
+	}
+	to {
+		transform: scale(1.4) rotate(10deg);
+		color: var(--theme-orange);
+	}
 }
