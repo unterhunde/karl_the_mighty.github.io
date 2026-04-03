@@ -57,6 +57,8 @@ a:link, a:visited, a:hover, a:active{
 	border: var(--theme-borders);
 	border-radius: var(--theme-border-radius);
 
+	padding: var(--theme-border-radius);
+
 	box-shadow: var(--theme-box-shadows);
 
 	background-repeat: no-repeat;
