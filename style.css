@@ -141,6 +141,33 @@ a:link, a:visited, a:hover, a:active{
   50% { transform: translateY(-15px) rotate(25deg); }
 }
 
+.GameList {
+	position: relative;
+
+	padding: var(--theme-border-radius);
+
+	background-size: 100% auto;
+	background-color: var(--theme-background-alpha);
+
+	border: var(--theme-borders);
+	border-radius: var(--theme-border-radius);
+
+	box-shadow: var(--theme-box-shadows);
+}
+
+.GobanLineSummaryContainer {
+	position: relative;
+
+	padding: var(--theme-border-radius);
+
+	background-size: 100% auto;
+	background-color: var(--theme-background-alpha);
+
+	border: var(--theme-borders);
+	border-radius: var(--theme-border-radius);
+
+	box-shadow: var(--theme-box-shadows);
+}
 
 /* ===== Avatar and Username Area ===== */
 .username{
