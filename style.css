@@ -51,6 +51,10 @@ a:link, a:visited, a:hover, a:active{
 	box-shadow: var(--theme-box-shadows);
 }
 
+.Card {
+	background: transparent;
+	border: none;
+}
 .container {
 	position: absolute;
 	z-index: 0;
