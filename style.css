@@ -33,7 +33,7 @@
 
 	--theme-border-thick: 2px;
 	--theme-border-radius: 12px;
-	--theme-border-title-radius: 14px; /* Border radius */
+	--theme-border-title-radius: 12px; /* Border radius */
 	--theme-borders: var(--theme-border-thick) solid var(--theme-green);
 	--theme-borders-title-bottom: var(--theme-border-thick) solid var(--theme-green);
 	--theme-borders-title-top: var(--theme-border-thick) solid var(--theme-title);
