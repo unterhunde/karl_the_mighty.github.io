@@ -33,7 +33,7 @@
 
 	--theme-border-thick: 2px;
 	--theme-border-radius: 12px;
-	--theme-border-title-radius: var(--theme-border-radius) - var(--theme-border-title-pading); /* Border radius - bord */
+	--theme-border-title-radius: calc(var(--theme-border-radius) - var(--theme-border-title-pading)); /* Border radius - bord */
 	--theme-borders: var(--theme-border-thick) solid var(--theme-green);
 	--theme-borders-title-bottom: var(--theme-border-thick) solid var(--theme-green);
 	--theme-borders-title-top: var(--theme-border-thick) solid var(--theme-title);
@@ -107,7 +107,7 @@ a:link, a:visited, a:hover, a:active{
 	border-top-left-radius: var(--theme-border-title-radius) !important;
 	border-top-right-radius: var(--theme-border-title-radius) !important;
 
-	padding: 0;
+	padding: var(--theme-border-title-pading);
 
 }
 .ratings-container {
@@ -202,7 +202,7 @@ Card:has(.activity-card) {
 	border-top-left-radius: var(--theme-border-title-radius) !important;
 	border-top-right-radius: var(--theme-border-title-radius) !important;
 
-	padding: 0;
+	padding: var(--theme-border-title-pading);
 
 }
 .active-games {
