@@ -66,7 +66,7 @@ h2{
 
 .main-content{
 	display: flex !important;
-	flex: 0 1 content !important;
+	flex: 0 1 auto !important;
 }
 /* Parent User Container: .app-content .User .container*/
 .container {
