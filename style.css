@@ -147,7 +147,7 @@ h2{
 }
 
 /* ===== Activity Container ===== */
-Card:has(.activity-card) {
+.activity-card {
 
 	padding: var(--theme-border-radius);
 
