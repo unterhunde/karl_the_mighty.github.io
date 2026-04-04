@@ -199,6 +199,7 @@ h2{
 
 /* ===== About Container ===== */
 .col-sm-8 .Card {
+	display: none !important;
 	border: none !important;
 	background: transparent !important;
 }
