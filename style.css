@@ -215,7 +215,7 @@ Card:has(.activity-card) {
 .GameList .inner-container{
 	padding: 5px !important;
 }
-.GameHistoryTable {
+.GameHistoryTable, .col-sm-12 {
 	position: relative;
 
 	padding: var(--theme-border-radius);
