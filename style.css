@@ -31,7 +31,7 @@
 	/* Borders */
 	--theme-border-radius: 12px;
 	--theme-borders: 2px solid var(--theme-green);
-	--theme-borders-title: 1px solid var(--theme-green);
+	--theme-borders-title: 2px solid var(--theme-green);
 	--theme-borders-title-bottom: 2px solid var(--theme-green);
 	--theme-borders-title-top: 2px solid var(--theme-title);
 	/* Im a FANCY LAD doing FANCY stuff */
