@@ -75,6 +75,8 @@ h2{
 
 /* Parent User Container: .app-content .User .container*/
 .container {
+	flex: 1 1 content !important;
+
 	width: 100%;
 
 	z-index: 0;
