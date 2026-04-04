@@ -176,6 +176,9 @@ h2{
 
 /* ===== Chart Containers ===== */
 .chart {
+	flex: 0 1 auto !important;
+	flex-grow: 0 !important;
+	flex-shrink: 1 !important;
 
 	position: relative;
 	height: 300px !important;
