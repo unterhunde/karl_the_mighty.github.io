@@ -65,6 +65,7 @@ h2{
 }
 .Card div {
 	display: flex;
+	flex-direction: column;
 }
 .MainSection{
 	align-content: center;
