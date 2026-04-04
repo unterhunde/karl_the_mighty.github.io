@@ -90,7 +90,7 @@ a:link, a:visited, a:hover, a:active{
 	box-shadow: var(--theme-box-shadows);
 }
 
-.RatingsChart {
+.RatingsChart, RatingsChartByGame {
 	position: relative;
 
 	padding: var(--theme-border-radius);
@@ -148,7 +148,7 @@ Card:has(.activity-card) {
 
 	color: var(--theme-lightpurp);
 	text-align: center;
-	font-family: 'Cinzel', sans-serif;
+	font-family: var(--theme-font), sans-serif;
 	font-size: 14px !important;
 	font-weight: bold;
 	/* The Loop: floating animation */
