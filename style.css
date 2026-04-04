@@ -191,10 +191,10 @@ Card:has(.activity-card) {
 .active-games-header {
 	position: relative;
 
-	background-color: var(--theme-title);
-	border-top: var(--theme-borders-title-top);
-	border-bottom: var(--theme-borders-title-bottom);
-	border-top-radius: var(--theme-border-radius);
+	background-color: var(--theme-title) !important;
+	border-top: var(--theme-borders-title-top) !important;
+	border-top-radius: var(--theme-border-radius) !important;
+	border-bottom: var(--theme-borders-title-bottom) !important;
 
 	padding: 0 5px 5px;
 
@@ -202,14 +202,15 @@ Card:has(.activity-card) {
 .active-games {
 	position: relative;
 
-	background-size: 100% auto;
-	background-color: var(--theme-background-alpha);
+	background-size: 100% auto !important;
+	background-color: var(--theme-background-alpha) !important;
 
-	border: var(--theme-borders);
-	border-radius: var(--theme-border-radius);
+	border: var(--theme-borders) !important;
+	border-radius: var(--theme-border-radius) !important;
 
-	box-shadow: var(--theme-box-shadows);
+	box-shadow: var(--theme-box-shadows) !important;
 }
+
 .GameList .inner-container{
 	padding: 5px !important;
 }
