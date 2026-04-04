@@ -65,11 +65,11 @@ h2{
 }
 
 .main-content{
-	display: flex !important;
+
 }
 /* Parent User Container: .app-content .User .container*/
 .container {
-	flex: 1 1 content !important;
+	display: flex !important;
 
 	z-index: 0;
 	top: 10px;
