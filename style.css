@@ -95,6 +95,8 @@ a:link, a:visited, a:hover, a:active{
 	position: relative;
 
 	background-color: var(--theme-title);
+	border-radius: var(--theme-border-radius);
+
 	padding: 3px;
 
 }
