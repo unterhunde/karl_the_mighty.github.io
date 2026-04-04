@@ -157,7 +157,7 @@ h2{
 }
 
 /* ===== Activity Container ===== */
-.activity-card {
+.col-sm-4 .activity-card {
 
 	padding: var(--theme-border-radius);
 
@@ -244,6 +244,9 @@ h2{
 	border-radius: var(--theme-border-radius);
 
 	box-shadow: var(--theme-box-shadows);
+}
+.GameHistoryTable .clickable-rows {
+
 }
 .review-history-table {
 	position: relative;
