@@ -167,7 +167,9 @@ h2{
 }
 
 /* ===== Chart Containers ===== */
-
+.ratings-row{
+	display: flex;
+}
 .ratings-chart {
 	visibility: visible;
 	display: flex;
