@@ -127,11 +127,13 @@ h2{
 
 	box-shadow: var(--theme-box-shadows);
 }
+
+/* ===== Chart Containers ===== */
 .chart {
 
 	position: relative;
 	height: 300px !important;
-	width: 1161px;
+	width: 90%;
 
 	padding: var(--theme-border-radius);
 
@@ -224,7 +226,6 @@ h2{
 
 	box-shadow: var(--theme-box-shadows) !important;
 }
-
 .GameList .inner-container{
 	padding: 5px !important;
 }
