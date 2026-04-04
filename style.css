@@ -241,20 +241,7 @@ h2{
 	box-shadow: var(--theme-box-shadows) !important;
 }
 
-
-
-/* ===== Game List and History Containers ===== */
-.active-games-header {
-	visibility: visible;
-	background-color: var(--theme-title) !important;
-	border-top: var(--theme-borders-title-top) !important;
-	border-bottom: var(--theme-borders-title-bottom) !important;
-	border-top-left-radius: var(--theme-border-title-radius) !important;
-	border-top-right-radius: var(--theme-border-title-radius) !important;
-
-	padding: var(--theme-border-title-pading) !important;
-
-}
+/* Active Games */
 .active-games {
 	display: none !important;
 
@@ -266,10 +253,13 @@ h2{
 
 	box-shadow: var(--theme-box-shadows) !important;
 }
+
+/* ===== Game List and History Containers ===== */
 .GameList .inner-container{
 	padding: 5px !important;
 }
 .GameHistoryTable {
+	visibility: visible;
 	padding: var(--theme-border-radius);
 
 	background-size: 100% auto;
