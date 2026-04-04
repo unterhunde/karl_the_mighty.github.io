@@ -140,7 +140,9 @@ h2{
 	transform: rotate(-90deg);
 
 }
-
+.RatingsChart {
+	height: 300px !important;
+}
 /* ===== Activity Container ===== */
 Card:has(.activity-card) {
 
