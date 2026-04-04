@@ -27,10 +27,13 @@
 	text-shadow: var(--theme-text-shadows) !important;
 
 	--theme-background-alpha: rgba(46,46,46, 0.9);
+
+	/* Borders */
 	--theme-border-radius: 12px;
 	--theme-borders: 2px solid var(--theme-green);
 	--theme-borders-title: 1px solid var(--theme-green);
-
+	--theme-borders-title-bottom: 1px solid var(--theme-green);
+	--theme-borders-title-top: 1px solid;
 	/* Im a FANCY LAD doing FANCY stuff */
 	--theme-bubble-background: rgba(38,52,55,0.9);
 
@@ -96,8 +99,9 @@ a:link, a:visited, a:hover, a:active{
 	position: relative;
 
 	background-color: var(--theme-title);
-	border-top: var(--theme-borders-title);
-	border-radius: var(--theme-border-radius);
+	border-top: var(--theme-borders-title-top);
+	border-bottom: var(--theme-borders-title-bottom);
+	border-top-radius: var(--theme-border-radius);
 
 
 	padding: 3px;
