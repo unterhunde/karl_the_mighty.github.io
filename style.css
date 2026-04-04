@@ -48,6 +48,8 @@ a:link, a:visited, a:hover, a:active{
 	color: var(--theme-ltpurple);
 }
 
+
+/* Hide top level effects. */
 h2{
 	display: none !important;
 	background-color: var(--theme-title) !important;
@@ -58,15 +60,13 @@ h2{
 
 	padding: var(--theme-border-title-pading);
 }
-/* Hide top level Card effects. */
-
 .country-line{
 	display: none !important;
 }
 
-/* Fill out basic container properties. */
-.User .container {
-
+/* PArent User Container .User .container*/
+.container {
+	display: flex;
 	/*
 		flex-grow: 0;
 		flex-shrink: 1;
