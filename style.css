@@ -64,10 +64,13 @@ h2{
 	display: none !important;
 }
 
+.main-content{
+	display: flex !important;
+	flex: 0 1 auto !important;
+}
 /* Parent User Container: .app-content .User .container*/
 .container {
-	display: flex;
-	flex: 0 1 auto !important;
+
 
 	/*
 		flex-grow: 0;
