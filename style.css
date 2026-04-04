@@ -133,9 +133,10 @@ a:link, a:visited, a:hover, a:active{
 	box-shadow: var(--theme-box-shadows);
 }
 .graph-type-toggle {
-	position: relative !important;
+	position: absolute !important;
 	top: 0 !important;
 	left: 0 !important;
+	transform: rotate(-90deg);
 
 }
 
