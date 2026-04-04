@@ -71,8 +71,6 @@ h2{
 }
 /* Fill out basic container properties. */
 .container {
-	display: flex !important;
-	justify-content: center;
 	position: relative;
 	z-index: 0;
 	top: 10px;
