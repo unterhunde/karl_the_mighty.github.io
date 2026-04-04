@@ -47,9 +47,6 @@ a:link, a:visited, a:hover, a:active{
 	color: var(--theme-lightpurp);
 }
 
-div:has(.review-history-table){
-	display: none;
-}
 
 h2{
 	display: none !important;
