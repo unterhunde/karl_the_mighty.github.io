@@ -75,10 +75,6 @@ h2{
 
 	width: 100% !important;
 
-	z-index: 0;
-	top: 10px;
-	left: 10px;
-
 	border: var(--theme-borders);
 	border-radius: var(--theme-border-radius);
 
