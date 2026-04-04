@@ -62,7 +62,6 @@ h1,h2, h3{
 }
 /* Hide top level Card effects. */
 .Card {
-	position: absolute !important;
 	background: transparent !important;
 	border: none !important;
 	box-shadow: none !important;
@@ -192,6 +191,12 @@ Card:has(.activity-card) {
 }
 
 /* ===== Game List and History Containers ===== */
+.Card:has(.active-games) {
+	position: absolute !important;
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
 .active-games-header {
 	position: relative;
 
