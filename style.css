@@ -51,6 +51,9 @@ a:link, a:visited, a:hover, a:active{
 .col-sm-12 .review-history-table{
 	display: none;
 }
+.col-sm-12 .rsearch{
+	display: none;
+}
 
 h2{
 	display: none !important;
