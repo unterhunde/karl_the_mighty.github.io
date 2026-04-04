@@ -146,6 +146,8 @@ h2{
 .ratings-container {
 	position: relative;
 
+	flex: 1 1 auto;
+
 	left: 100px;
 
 	background-size: 100% auto;
