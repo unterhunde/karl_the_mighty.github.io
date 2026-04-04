@@ -132,7 +132,7 @@ h2{
 	flex: 0 1 content !important;
 	position: relative;
 
-	top: 100px;
+	top: 95px;
 	left: -20px;
 
 	color: var(--theme-text);
