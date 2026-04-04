@@ -169,6 +169,8 @@ h2{
 
 /* ===== Chart Containers ===== */
 .chart {
+	visibility: visible;
+
 	position: relative;
 
 	background-color: var(--theme-background-alpha);
