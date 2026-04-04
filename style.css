@@ -203,7 +203,7 @@ h2{
 }
 .about-container{
 	visibility: visible;
-	position: absolute;
+	position: relative;
 
 	top: 100px;
 	left: 350px;
