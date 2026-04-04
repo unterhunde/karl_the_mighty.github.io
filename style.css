@@ -246,7 +246,7 @@ h2{
 	box-shadow: var(--theme-box-shadows);
 }
 .GameHistoryTable .clickable-rows {
-
+	border: unset !important;
 }
 .review-history-table {
 	position: relative;
