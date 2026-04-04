@@ -29,9 +29,11 @@
 	--theme-background-alpha: rgba(46,46,46, 0.9);
 
 	/* Borders */
+	--theme-border-title-pading: 5px;
+
 	--theme-border-thick: 2px;
 	--theme-border-radius: 12px;
-	--theme-border-title-radius: 10px; /* Border radius - border thickness */
+	--theme-border-title-radius: var(--theme-border-radius) - var(--theme-border-title-pading); /* Border radius - bord */
 	--theme-borders: var(--theme-border-thick) solid var(--theme-green);
 	--theme-borders-title-bottom: var(--theme-border-thick) solid var(--theme-green);
 	--theme-borders-title-top: var(--theme-border-thick) solid var(--theme-title);
