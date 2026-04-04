@@ -63,7 +63,9 @@ h2{
 .country-line{
 	display: none !important;
 }
-
+div {
+	display: flex;
+}
 .MainSection{
 	align-content: center;
 	align-items: center;
@@ -195,19 +197,6 @@ h2{
 
 }
 
-/* ===== Activity Container ===== */
-.Card .activity-card {
-	padding: var(--theme-border-radius) !important;
-
-	background-size: 100% auto !important;
-	background-color: var(--theme-background-alpha) !important;
-
-	border: var(--theme-borders) !important;
-	border-radius: var(--theme-border-radius) !important;
-
-	box-shadow: var(--theme-box-shadows) !important;
-}
-
 /* ===== About Container ===== */
 .Card {
 	visibility: hidden;
@@ -287,4 +276,17 @@ h2{
 }
 .col-sm-12 .search{
 	display: none !important;
+}
+
+/* ===== Activity Container ===== */
+.Card .activity-card {
+	padding: var(--theme-border-radius) !important;
+
+	background-size: 100% auto !important;
+	background-color: var(--theme-background-alpha) !important;
+
+	border: var(--theme-borders) !important;
+	border-radius: var(--theme-border-radius) !important;
+
+	box-shadow: var(--theme-box-shadows) !important;
 }
