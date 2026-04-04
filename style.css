@@ -259,6 +259,7 @@ h2{
 	padding: 5px !important;
 }
 .GameHistoryTable {
+	flex: 1 1 auto;
 	visibility: visible;
 	padding: var(--theme-border-radius);
 
