@@ -1,5 +1,5 @@
 /* === OGS Custom Profile Theme by Karl the Mighty  === */
-@import url('https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&family=Cinzel:wght@400..900&family=Iceberg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&family=Cinzel:wght@400..900&family=Iceberg&family=Quicksand:wght@300..700&display=swap');
 
 :root {
 /* ==================== ONLY 5 COLORS ==================== */
@@ -16,8 +16,8 @@
 	color: var(--theme-text-color);
 	background-color: var(--theme-bg);
 
-	/* Cinzel, Astloch, Iceberg */
-	--theme-font: 'Iceberg';
+	/* Cinzel, Astloch, Iceberg, Quicksand */
+	--theme-font: 'Quicksand';
 	--theme-text-color: var(--theme-text);
 	--theme-text-shadows: 2px 2px 4px rgba(0, 0, 0, 0.9);
 	--theme-box-shadows: 2px 2px 15px rgba(0, 0, 0, 0.9);
