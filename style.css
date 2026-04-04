@@ -64,12 +64,17 @@ h2{
 	display: none !important;
 }
 
+.MainSection{
+	display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    align-content: center !important;
+    flex-wrap: nowrap !important;;
+}
+
 /* Parent User Container: .app-content .User .container*/
 .container {
-	display: flex !important;
-	justify-content: center !important;
-	flex-direction: column !important;
-
 	width: 100%;
 
 	z-index: 0;
