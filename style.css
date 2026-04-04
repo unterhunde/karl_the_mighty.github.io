@@ -49,7 +49,7 @@ a:link, a:visited, a:hover, a:active{
 
 .col-sm-4, .row {
 	position: relative;
-
+	padding: 0 !important;
 	background-size: 100% auto;
 	background-color: var(--theme-background-alpha);
 
