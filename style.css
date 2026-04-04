@@ -194,8 +194,8 @@ Card:has(.activity-card) {
 
 	background-color: var(--theme-title) !important;
 	border-top: var(--theme-borders-title-top) !important;
-	border-top-radius: var(--theme-border-radius) !important;
 	border-bottom: var(--theme-borders-title-bottom) !important;
+	border-top-radius: var(--theme-border-radius) !important;
 
 	padding: 0 5px 5px;
 
