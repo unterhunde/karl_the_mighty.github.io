@@ -101,7 +101,8 @@ a:link, a:visited, a:hover, a:active{
 	background-color: var(--theme-title) !important;
 	border-top: var(--theme-borders-title-top) !important;
 	border-bottom: var(--theme-borders-title-bottom) !important;
-	border-top-radius: var(--theme-border-radius) !important;
+	border-top-left-radius: var(--theme-border-radius) !important;
+	border-top-right-radius: var(--theme-border-radius) !important;
 
 	padding: 0 5px 5px;
 
@@ -195,7 +196,8 @@ Card:has(.activity-card) {
 	background-color: var(--theme-title) !important;
 	border-top: var(--theme-borders-title-top) !important;
 	border-bottom: var(--theme-borders-title-bottom) !important;
-	border-top-radius: var(--theme-border-radius) !important;
+	border-top-left-radius: var(--theme-border-radius) !important;
+	border-top-right-radius: var(--theme-border-radius) !important;
 
 	padding: 0 5px 5px;
 
