@@ -47,21 +47,7 @@ a:link, a:visited, a:hover, a:active{
 	color: var(--theme-lightpurp);
 }
 
-.col-sm-8 {
-	display: none !important;
-}
 
-.col-sm-4 {
-	position: relative;
-	padding: 0 !important;
-	background-size: 100% auto;
-	background-color: var(--theme-background-alpha);
-
-	border: var(--theme-borders);
-	border-radius: var(--theme-border-radius);
-
-	box-shadow: var(--theme-box-shadows);
-}
 
 h1,h2, h3{
 	position: relative;
