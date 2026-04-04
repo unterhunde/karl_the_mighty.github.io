@@ -107,6 +107,7 @@ h2{
 /* ===== Profile Card: div .profile-card .avatar-and-ratings-row===== */
 .avatar-container .Player-rank {
 	flex: 0 1 content !important;
+	position: relative;
 
 	top: 0;
 	left: 0;
