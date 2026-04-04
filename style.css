@@ -68,8 +68,8 @@ h2{
 	flex-direction: column;
 }
 .MainSection{
-	align-content: center;
-	align-items: center;
+	align-content: start;
+	align-items: start;
 }
 /* Parent User Container: .app-content .User .container*/
 .container {
