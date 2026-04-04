@@ -67,6 +67,7 @@ h2{
 /* Parent User Container: .app-content .User .container*/
 .container {
 	display: flex !important;
+	flex-direction: column !important;
 
 	z-index: 0;
 	top: 10px;
