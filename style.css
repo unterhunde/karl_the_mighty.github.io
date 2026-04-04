@@ -66,7 +66,6 @@ h2{
 
 /* Parent User Container: .app-content .User .container*/
 .container {
-	flex: 1 1 content !important;
 	overflow: hidden !important;
 
 	width: 100%;
@@ -105,7 +104,6 @@ h2{
 
 }
 .avatar-container .Player-rank {
-	flex: 0 1 content !important;
 	position: relative;
 
 	top: 0;
@@ -118,7 +116,6 @@ h2{
 	text-shadow: var(--theme-text-shadows) !important;
 }
 .avatar-container .Player-username {
-	flex: 0 1 content !important;
 	position: relative;
 
 	top: 95px;
@@ -131,8 +128,6 @@ h2{
 	animation: username_kapow 0.25s linear infinite alternate;
 }
 .PlayerIcon, .PlayerIcon-128{
-	flex: 0 1 content !important;
-
 	background-repeat: no-repeat;
   	background-position: top left;
 	content: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/bonsaianim.gif') !important;
@@ -150,8 +145,6 @@ h2{
 
 /* ===== Ratings Containers ===== */
 .ratings-title {
-	flex: 0 1 content !important;
-
 	background-color: var(--theme-title) !important;
 	border-top: var(--theme-borders-title-top) !important;
 	border-bottom: var(--theme-borders-title-bottom) !important;
@@ -162,8 +155,6 @@ h2{
 
 }
 .ratings-container {
-	flex: 0 1 content !important;
-
 	/*padding: var(--theme-border-radius);*/
 
 	background-size: 100% auto;
@@ -177,7 +168,6 @@ h2{
 
 /* ===== Chart Containers ===== */
 .chart {
-	flex: 0 1 content !important;
 	position: relative;
 
 	background-color: var(--theme-background-alpha);
@@ -188,7 +178,6 @@ h2{
 	box-shadow: var(--theme-box-shadows);
 }
 .graph-type-toggle {
-	flex: 0 1 content !important;
 	position: relative;
 	top: -15px;
 	transform: rotate(-90deg);
@@ -197,8 +186,6 @@ h2{
 
 /* ===== Activity Container ===== */
 .Card .activity-card {
-	flex: 0 1 content !important;
-
 	padding: var(--theme-border-radius) !important;
 
 	background-size: 100% auto !important;
@@ -212,8 +199,6 @@ h2{
 
 /* ===== About Container ===== */
 .about-container {
-	flex: 0 1 content !important;
-
 	background: var(--theme-bubble-background);
 	border: 2px solid #000;
 	border-radius: 25px;
@@ -244,8 +229,6 @@ h2{
 
 /* ===== Game List and History Containers ===== */
 .active-games-header {
-	flex: 0 1 content !important;
-
 	background-color: var(--theme-title) !important;
 	border-top: var(--theme-borders-title-top) !important;
 	border-bottom: var(--theme-borders-title-bottom) !important;
@@ -257,7 +240,6 @@ h2{
 }
 .active-games {
 	display: none !important;
-	flex: 0 1 content !important;
 
 	background-size: 100% auto !important;
 	background-color: var(--theme-background-alpha) !important;
@@ -268,13 +250,9 @@ h2{
 	box-shadow: var(--theme-box-shadows) !important;
 }
 .GameList .inner-container{
-	flex: 0 1 content !important;
-
 	padding: 5px !important;
 }
 .GameHistoryTable {
-	flex: 0 1 content !important;
-
 	padding: var(--theme-border-radius);
 
 	background-size: 100% auto;
@@ -286,17 +264,13 @@ h2{
 	box-shadow: var(--theme-box-shadows);
 }
 .GameHistoryTable .clickable-rows {
-	flex: 0 1 content !important;
 	border: none !important;
 }
 
 /* ===== Review History Container ===== */
 .col-sm-12 .review-history-table{
-	flex: 0 1 content !important;
 	display: none !important;
 }
 .col-sm-12 .search{
-	flex: 0 1 content !important;
-
 	display: none !important;
 }
