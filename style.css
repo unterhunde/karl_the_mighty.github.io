@@ -190,8 +190,7 @@ h2{
 }
 
 /* ===== Activity Container ===== */
-.Card`
-.activity-card {
+.Card .activity-card {
 
 	padding: var(--theme-border-radius) !important;
 
