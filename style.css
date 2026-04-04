@@ -107,8 +107,8 @@ h2{
 /* ===== Profile Card: div .profile-card .avatar-and-ratings-row===== */
 .avatar-container .Player-rank {
 	position: absolute !important;
-	top: 10 !important;
-	left: 20 !important;
+	top: 10px !important;
+	left: 20px !important;
 
 	color: var(--theme-ltgreen) !important;
 	font-family: 'Astloch', serif !important;
