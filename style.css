@@ -202,7 +202,7 @@ Card:has(.activity-card) {
 	border-top-left-radius: var(--theme-border-title-radius) !important;
 	border-top-right-radius: var(--theme-border-title-radius) !important;
 
-	padding: var(--theme-border-title-pading);
+	padding: var(--theme-border-title-pading) !important;
 
 }
 .active-games {
