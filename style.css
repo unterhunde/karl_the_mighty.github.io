@@ -262,7 +262,8 @@ h2{
 	left: 0;
 
 	color: var(--theme-ltgreen) !important;
-	font-family: var(--theme-font), serif !important;
+	font-family: 'Astloch', serif !important;
+	font-weight: bold !important;
   	font-size: 36px !important;
 	text-shadow: var(--theme-text-shadows) !important;
 
