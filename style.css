@@ -165,7 +165,7 @@ h2{
 
 /* ===== About Container ===== */
 .about-container {
-	display: contents;
+	display: contents !important;
 	position: absolute;
 	top: 0;
 	left: 230px;
