@@ -70,7 +70,8 @@ h2{
     justify-content: flex-start !important;
     align-items: center !important;
     align-content: center !important;
-    flex-wrap: nowrap !important;;
+    flex-wrap: nowrap !important;
+	overflow: hidden !important;
 }
 
 /* Parent User Container: .app-content .User .container*/
