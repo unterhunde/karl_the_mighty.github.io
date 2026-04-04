@@ -120,7 +120,7 @@ a:link, a:visited, a:hover, a:active{
 }
 
 .graph-type-toggle {
-	position: relative;
+	position: absolute;
 	top: 100px;
 	left: 20px;
 
