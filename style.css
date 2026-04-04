@@ -276,7 +276,7 @@ Card:has(.activity-card) {
 
 	animation: username_kapow 0.25s linear infinite alternate;
 }
-.PlayerIcon{
+.PlayerIcon, PlayerIcon-128{
 	background-repeat: no-repeat;
   	background-position: top left;
 	content: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/bonsaianim.gif') !important;
