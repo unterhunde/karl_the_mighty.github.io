@@ -63,7 +63,7 @@ h2{
 .country-line{
 	display: none !important;
 }
-div {
+.Card div {
 	display: flex;
 }
 .MainSection{
