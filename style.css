@@ -168,6 +168,9 @@ h2{
 }
 
 /* ===== Chart Containers ===== */
+.RatingChartByGame{
+	display: flex;
+}
 .ratings-chart {
 	visibility: visible;
 
