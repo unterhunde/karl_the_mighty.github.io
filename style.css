@@ -126,7 +126,7 @@ h2{
 	box-shadow: var(--theme-box-shadows);
 }
 .chart {
-	display: contents;
+
 	position: relative;
 	height: 300px !important;
 	width: 1161px;
@@ -165,6 +165,7 @@ h2{
 
 /* ===== About Container ===== */
 .about-container {
+	display: contents;
 	position: absolute;
 	top: 0;
 	left: 230px;
