@@ -47,7 +47,7 @@ a:link, a:visited, a:hover, a:active{
 	color: var(--theme-lightpurp);
 }
 
-.col-sm-4 {
+.col-sm-4, .col-sm-12  {
 	position: relative;
 
 	padding: var(--theme-border-radius);
