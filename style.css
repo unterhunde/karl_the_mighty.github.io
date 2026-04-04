@@ -66,6 +66,9 @@ h2{
 	box-shadow: none !important;
 }
 
+.col-sm-12{
+	display: none !important;
+}
 /* Fill out basic container properties. */
 .container {
 	display: flex !important;
