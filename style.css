@@ -64,9 +64,11 @@ h2{
 	display: none !important;
 }
 
-/* PArent User Container .User .container*/
+/* Parent User Container: .app-content .User .container*/
 .container {
 	display: flex;
+	flex: 0 1 auto !important;
+
 	/*
 		flex-grow: 0;
 		flex-shrink: 1;
@@ -96,6 +98,49 @@ h2{
 
 
 
+}
+
+/* ===== Profile Card: div .profile-card .avatar-and-ratings-row===== */
+.avatar-container .Player-rank {
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+
+	color: var(--theme-ltgreen) !important;
+	font-family: 'Astloch', serif !important;
+	font-weight: bold !important;
+  	font-size: 36px !important;
+	text-shadow: var(--theme-text-shadows) !important;
+
+
+	transform: rotate(-90deg);
+}
+.avatar-container .Player-username {
+	position: absolute;
+	top: 115px;
+	left: 95px;
+
+	color: var(--theme-text);
+	text-shadow: var(--theme-text-shadows);
+
+	transform: rotate(-90deg);
+
+	animation: username_kapow 0.25s linear infinite alternate;
+}
+.PlayerIcon, .PlayerIcon-128{
+	background-repeat: no-repeat;
+  	background-position: top left;
+	content: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/bonsaianim.gif') !important;
+}
+@keyframes username_kapow {
+	from {
+		transform: scale(1) rotate(-90deg);
+		color: var(--theme-text-color);
+	}
+	to {
+		transform: scale(1.2) rotate(-90deg);
+		color: var(--theme-ltpurple);
+	}
 }
 
 /* ===== Ratings Containers ===== */
@@ -250,48 +295,4 @@ h2{
 }
 .col-sm-12 .search{
 	display: none !important;
-}
-
-
-/* ===== Avatar and Username Area ===== */
-.avatar-container .Player-rank {
-	position: absolute !important;
-	top: 0 !important;
-	left: 0 !important;
-
-	color: var(--theme-ltgreen) !important;
-	font-family: 'Astloch', serif !important;
-	font-weight: bold !important;
-  	font-size: 36px !important;
-	text-shadow: var(--theme-text-shadows) !important;
-
-
-	transform: rotate(-90deg);
-}
-.avatar-container .Player-username {
-	position: absolute;
-	top: 115px;
-	left: 95px;
-
-	color: var(--theme-text);
-	text-shadow: var(--theme-text-shadows);
-
-	transform: rotate(-90deg);
-
-	animation: username_kapow 0.25s linear infinite alternate;
-}
-.PlayerIcon, .PlayerIcon-128{
-	background-repeat: no-repeat;
-  	background-position: top left;
-	content: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/bonsaianim.gif') !important;
-}
-@keyframes username_kapow {
-	from {
-		transform: scale(1) rotate(-90deg);
-		color: var(--theme-text-color);
-	}
-	to {
-		transform: scale(1.2) rotate(-90deg);
-		color: var(--theme-ltpurple);
-	}
 }
