@@ -205,8 +205,8 @@ h2{
 	visibility: visible;
 	position: relative;
 
-	top: 100px;
-	left: 350px;
+	top: -500px;
+	left: 330px;
 
 
 	background: var(--theme-bubble-background) !important;
