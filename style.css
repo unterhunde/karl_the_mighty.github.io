@@ -64,16 +64,6 @@ h2{
 	display: none !important;
 }
 
-.MainSection{
-	display: flex !important;
-    flex-direction: column !important;
-    justify-content: flex-start !important;
-    align-items: center !important;
-    align-content: center !important;
-    flex-wrap: nowrap !important;
-	overflow: hidden !important;
-}
-
 /* Parent User Container: .app-content .User .container*/
 .container {
 	flex: 1 1 content !important;
