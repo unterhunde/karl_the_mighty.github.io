@@ -95,6 +95,7 @@ a:link, a:visited, a:hover, a:active{
 	position: relative;
 
 	background-color: var(--theme-title);
+	padding: 3px;
 
 }
 .ratings-container {
@@ -128,7 +129,7 @@ a:link, a:visited, a:hover, a:active{
 .graph-type-toggle {
 	position: relative !important;
 	top: 0px !important;
-	left:0px !important;
+	left: 0px !important;
 
 }
 
