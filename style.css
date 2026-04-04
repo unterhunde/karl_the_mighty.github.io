@@ -136,7 +136,7 @@ h2{
 
 	position: relative;
 	height: 300px !important;
-	width: 90%;
+	width: 90% !important;
 
 	padding: var(--theme-border-radius);
 
