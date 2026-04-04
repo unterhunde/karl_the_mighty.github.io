@@ -50,7 +50,6 @@ a:link, a:visited, a:hover, a:active{
 
 
 h2{
-	position: absolute !important;
 
 	background-color: var(--theme-title) !important;
 	border-top: var(--theme-borders-title-top) !important;
