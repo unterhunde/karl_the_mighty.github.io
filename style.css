@@ -179,10 +179,10 @@ h2{
 	flex: 0 1 content !important;
 
 	/* height: 300px !important;
-	width: 1160px !important;*/
+	width: 1160px !important;
 
 	padding: var(--theme-border-radius);
-
+*/
 	background-size: 100% auto;
 	background-color: var(--theme-background-alpha);
 
