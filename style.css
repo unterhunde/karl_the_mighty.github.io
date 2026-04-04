@@ -247,7 +247,7 @@ h2{
 	display: none;
 }
 .col-sm-12 .search{
-	display: none;
+	display: none !important;
 }
 
 
