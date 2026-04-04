@@ -199,28 +199,28 @@ h2{
 
 /* ===== About Container ===== */
 .col-sm-8 .Card .about-container {
-	background: var(--theme-bubble-background);
-	border: 2px solid #000;
-	border-radius: 25px;
-	padding: 10px;
-	width: 150px;
+	background: var(--theme-bubble-background) !important;
+	border: 2px solid #000 !important;
+	border-radius: 25px !important;
+	padding: 10px !important;
+	width: 150px !important;
 
-	color: var(--theme-ltpurple);
-	text-align: center;
-	font-family: var(--theme-font), sans-serif;
-	font-size: 14px !important;
-	font-weight: bold;
+	color: var(--theme-ltpurple) !important;
+	text-align: center !important;
+	font-family: var(--theme-font), sans-serif !important;
+	font-size: 14px !important !important;
+	font-weight: bold !important;
 	/* The Loop: floating animation */
-	animation: float 3s ease-in-out infinite;
+	animation: float 3s ease-in-out infinite !important;
 }
 .about-container::after {
-  content: '';
-  position: absolute;
-  bottom: -20px; /* Adjust based on tail size */
-  left: 50px;
-  border-width: 20px 20px 0;
-  border-style: solid;
-  border-color: var(--theme-bubble-background) transparent transparent;
+  content: '' !important;
+  position: absolute !important;
+  bottom: -20px !important; /* Adjust based on tail size */
+  left: 50px !important;
+  border-width: 20px 20px 0 !important;
+  border-style: solid !important;
+  border-color: var(--theme-bubble-background) transparent transparent !important;
 }
 @keyframes float {
   0%, 100% { transform: translateY(0) rotate(25deg); }
