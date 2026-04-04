@@ -104,7 +104,10 @@ a:link, a:visited, a:hover, a:active{
 	border-top-radius: var(--theme-border-radius);
 
 
-	padding: 3px;
+	padding-top: 0;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
 
 }
 .ratings-container {
