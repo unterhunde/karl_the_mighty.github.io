@@ -35,7 +35,7 @@
 }
 
 a:link, a:visited, a:hover, a:active{
-	color: var(--theme-text);
+	color: var(--theme-lightpurp);
 }
 
 /* Hide top level Card effects. */
