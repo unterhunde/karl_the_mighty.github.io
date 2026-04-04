@@ -110,8 +110,8 @@ h2{
 	flex: 0 1 content !important;
 	position: relative;
 
-	top: 0px;
-	left: -200px;
+	top: -50px;
+	left: -300px;
 
 	color: var(--theme-ltgreen) !important;
 	font-family: 'Astloch', serif !important;
