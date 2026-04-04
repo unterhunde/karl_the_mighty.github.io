@@ -32,8 +32,8 @@
 	--theme-border-radius: 12px;
 	--theme-borders: 2px solid var(--theme-green);
 	--theme-borders-title: 1px solid var(--theme-green);
-	--theme-borders-title-bottom: 1px solid var(--theme-green);
-	--theme-borders-title-top: 1px solid;
+	--theme-borders-title-bottom: 2px solid var(--theme-green);
+	--theme-borders-title-top: solid;
 	/* Im a FANCY LAD doing FANCY stuff */
 	--theme-bubble-background: rgba(38,52,55,0.9);
 
