@@ -29,11 +29,11 @@
 	--theme-background-alpha: rgba(46,46,46, 0.9);
 
 	/* Borders */
+	--theme-border-thick: 2px;
 	--theme-border-radius: 12px;
-	--theme-borders: 2px solid var(--theme-green);
-	--theme-borders-title: 2px solid var(--theme-green);
-	--theme-borders-title-bottom: 2px solid var(--theme-green);
-	--theme-borders-title-top: 2px solid var(--theme-title);
+	--theme-borders: var(--theme-border-thick) solid var(--theme-green);
+	--theme-borders-title-bottom: var(--theme-border-thick) solid var(--theme-green);
+	--theme-borders-title-top: var(--theme-border-thick) solid var(--theme-title);
 	/* Im a FANCY LAD doing FANCY stuff */
 	--theme-bubble-background: rgba(38,52,55,0.9);
 
