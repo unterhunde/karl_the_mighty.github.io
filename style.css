@@ -46,8 +46,9 @@
 a:link, a:visited, a:hover, a:active{
 	color: var(--theme-lightpurp);
 }
+
 .col-sm-8 {
-	display: none;
+	display: none !important;
 }
 
 .col-sm-4 {
