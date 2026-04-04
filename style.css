@@ -220,7 +220,7 @@ h2{
   left: 50px !important;
   border-width: 20px 20px 0 !important;
   border-style: solid !important;
-  border-color: var(--theme-bubble-background) transparent transparent !important;
+  border-color: var(--theme-bubble-background) transparent !important;
 }
 @keyframes float {
   0%, 100% { transform: translateY(0) rotate(25deg); }
