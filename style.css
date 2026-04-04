@@ -201,8 +201,13 @@ h2{
 .Card {
 	visibility: hidden;
 }
-.Card > .about-container{
+.about-container{
 	visibility: visible;
+	position: absolute;
+
+	top: 0;
+	left: 0;
+
 
 	background: var(--theme-bubble-background) !important;
 	border: 2px solid #000 !important;
