@@ -124,7 +124,7 @@ h2{
 .chart {
 	position: relative;
 	height: 300px !important;
-	width: 1150px;
+	width: 1170px;
 
 	padding: var(--theme-border-radius);
 
@@ -262,7 +262,11 @@ Card:has(.activity-card) {
 
 	transform: rotate(-90deg);
 }
-
+.PlayerIcon{
+	background-repeat: no-repeat;
+  	background-position: top left;
+	content: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/bonsaianim.gif');
+}
 .avatar-container .Player-username {
 	position: absolute;
 	top: 100px;
