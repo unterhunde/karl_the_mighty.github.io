@@ -63,7 +63,7 @@ h2{
 .country-line{
 	display: none !important;
 }
-.Card div {
+.col-sm-12 .Card div {
 	display: flex;
 	flex-direction: column;
 }
