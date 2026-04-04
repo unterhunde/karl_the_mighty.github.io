@@ -195,7 +195,7 @@ h2{
 
 	padding: var(--theme-border-radius);
 */
-	background-size: 100% auto;
+
 	background-color: var(--theme-background-alpha);
 
 	border: var(--theme-borders);
