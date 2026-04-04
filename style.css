@@ -167,7 +167,6 @@ h2{
 .chart {
 	flex: 0 1 content !important;
 
-	position: relative;
 	height: 300px !important;
 	/*width: 1160px !important;*/
 
