@@ -49,8 +49,8 @@ a:link, a:visited, a:hover, a:active{
 
 
 
-h1,h2, h3{
-	position: relative;
+h2{
+	position: absolute !important;
 
 	background-color: var(--theme-title) !important;
 	border-top: var(--theme-borders-title-top) !important;
@@ -191,12 +191,6 @@ Card:has(.activity-card) {
 }
 
 /* ===== Game List and History Containers ===== */
-.Card:has(.active-games) {
-	position: absolute !important;
-	background: transparent !important;
-	border: none !important;
-	box-shadow: none !important;
-}
 .active-games-header {
 	position: relative;
 
