@@ -130,7 +130,7 @@ Card:has(.activity-card) {
 	padding: 10px;
 	width: 150px;
 
-	color: var(--theme-bg);
+	color: var(--theme-lightpurp);
 	text-align: center;
 	font-family: 'Comic Sans MS', sans-serif;
 	font-size: 14px !important;
