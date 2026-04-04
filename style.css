@@ -140,10 +140,8 @@ a:link, a:visited, a:hover, a:active{
 
 }
 
-
-/* ===== About Container ===== */
+/* ===== Activity Container ===== */
 Card:has(.activity-card) {
-	position: relative;
 
 	padding: var(--theme-border-radius);
 
