@@ -177,8 +177,8 @@ h2{
 .chart {
 	flex: 0 1 content !important;
 
-	height: 300px !important;
-	/*width: 1160px !important;*/
+	/* height: 300px !important;
+	width: 1160px !important;*/
 
 	padding: var(--theme-border-radius);
 
