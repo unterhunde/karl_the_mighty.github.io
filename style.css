@@ -198,6 +198,10 @@ h2{
 }
 
 /* ===== About Container ===== */
+.col-sm-8 .Card {
+	border: none !important;
+	background: transparent !important;
+}
 .col-sm-8 .Card .about-container {
 	background: var(--theme-bubble-background) !important;
 	border: 2px solid #000 !important;
