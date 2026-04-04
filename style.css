@@ -190,12 +190,6 @@ h2{
 	flex: 0 1 content !important;
 	position: relative;
 
-	/* height: 300px !important;
-	width: 1160px !important;
-
-	padding: var(--theme-border-radius);
-*/
-
 	background-color: var(--theme-background-alpha);
 
 	border: var(--theme-borders);
