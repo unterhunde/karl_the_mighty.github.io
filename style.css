@@ -66,9 +66,7 @@ h2{
 
 /* Fill out basic container properties. */
 .User .container {
-	display: flex;
-	flex: 0 1 auto !important;
-	width: 100%;
+
 	/*
 		flex-grow: 0;
 		flex-shrink: 1;
