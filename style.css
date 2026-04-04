@@ -152,15 +152,15 @@ h2{
 /* ===== Activity Container ===== */
 .Card .activity-card {
 
-	padding: var(--theme-border-radius);
+	padding: var(--theme-border-radius) !important;
 
-	background-size: 100% auto;
-	background-color: var(--theme-background-alpha);
+	background-size: 100% auto !important;
+	background-color: var(--theme-background-alpha) !important;
 
-	border: var(--theme-borders);
-	border-radius: var(--theme-border-radius);
+	border: var(--theme-borders) !important;
+	border-radius: var(--theme-border-radius) !important;
 
-	box-shadow: var(--theme-box-shadows);
+	box-shadow: var(--theme-box-shadows) !important;
 }
 
 /* ===== About Container ===== */
