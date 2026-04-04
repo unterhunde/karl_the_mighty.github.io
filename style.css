@@ -61,7 +61,17 @@ a:link, a:visited, a:hover, a:active{
 	box-shadow: var(--theme-box-shadows);
 }
 
+h1,h2, h3{
+	position: relative;
 
+	background-color: var(--theme-title) !important;
+	border-top: var(--theme-borders-title-top) !important;
+	border-bottom: var(--theme-borders-title-bottom) !important;
+	border-top-left-radius: var(--theme-border-title-radius) !important;
+	border-top-right-radius: var(--theme-border-title-radius) !important;
+
+	padding: var(--theme-border-title-pading);
+}
 /* Hide top level Card effects. */
 .Card {
 	background: transparent !important;
