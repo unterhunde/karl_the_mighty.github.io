@@ -120,7 +120,7 @@ h2{
 
 	box-shadow: var(--theme-box-shadows);
 }
-.ratings-graph {
+.chart {
 	position: relative;
 	height: 300px !important;
 
