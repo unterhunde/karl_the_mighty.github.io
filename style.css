@@ -198,10 +198,10 @@ h2{
 }
 
 /* ===== About Container ===== */
-.col-sm-8 > *{
+.Card > *{
 	display: none;
 }
-.col-sm-8 > .about-container{
+.Card > .about-container{
 	display: block !important;
 
 	background: var(--theme-bubble-background) !important;
