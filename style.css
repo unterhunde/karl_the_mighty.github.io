@@ -11,22 +11,22 @@
 	--theme-lightpurp: #b7a2c9;
 
 
-	/* Cards and Sub-Containers*/
-	--theme-background-alpha: rgba(46,46,46, 0.9);
-	--theme-border-radius: 12px;
-
-	--theme-text-color: var(--theme-text);
-	--theme-text-shadows: 2px 2px 4px rgba(0, 0, 0, 0.9);
-	--theme-box-shadows: 2px 2px 15px rgba(0, 0, 0, 0.9);
-	--theme-borders: 1px solid var(--theme-green);
 
 	/* Set up defaults */
 	color: var(--theme-text-color);
 	background-color: var(--theme-bg);
 
+	--theme-text-color: var(--theme-text);
+	--theme-text-shadows: 2px 2px 4px rgba(0, 0, 0, 0.9);
+	--theme-box-shadows: 2px 2px 15px rgba(0, 0, 0, 0.9);
+
 	font-family: 'Cinzel', serif !important;
   	font-size: 12px !important;
 	text-shadow: var(--theme-text-shadows) !important;
+
+	--theme-background-alpha: rgba(46,46,46, 0.9);
+	--theme-border-radius: 12px;
+	--theme-borders: 2px solid var(--theme-green);
 
 	/* Im a FANCY LAD doing FANCY stuff */
 	--theme-bubble-background: rgba(38,52,55,0.9);
