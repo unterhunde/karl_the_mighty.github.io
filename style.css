@@ -8,7 +8,8 @@
 	--theme-green: #1b4b4b;
 	--theme-sub: #263437;
 	--theme-bg: #2c2d32;
-	--theme-lightpurp: #b7a2c9;
+	--theme-ltpurple: #b7a2c9;
+	--theme-ltgreen: #afb964;
 
 
 
@@ -44,7 +45,7 @@
 }
 
 a:link, a:visited, a:hover, a:active{
-	color: var(--theme-lightpurp);
+	color: var(--theme-ltpurple);
 }
 
 .col-sm-12:has(.review-history-table){
@@ -176,7 +177,7 @@ h2{
 	padding: 10px;
 	width: 150px;
 
-	color: var(--theme-lightpurp);
+	color: var(--theme-ltpurple);
 	text-align: center;
 	font-family: var(--theme-font), sans-serif;
 	font-size: 14px !important;
@@ -260,10 +261,10 @@ h2{
 	top: 0;
 	left: 0;
 
-	color: var(--theme-lightpurp);
-	font-family: var(--theme-font), serif;
-  	font-size: 36px;
-	text-shadow: var(--theme-text-shadows);
+	color: var(--theme-ltgreen) !important;
+	font-family: var(--theme-font), serif !important;
+  	font-size: 36px !important;
+	text-shadow: var(--theme-text-shadows) !important;
 
 
 	transform: rotate(-90deg);
@@ -292,6 +293,6 @@ h2{
 	}
 	to {
 		transform: scale(1.2) rotate(-90deg);
-		color: var(--theme-lightpurp);
+		color: var(--theme-ltpurple);
 	}
 }
