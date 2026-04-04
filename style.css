@@ -48,13 +48,6 @@ a:link, a:visited, a:hover, a:active{
 	color: var(--theme-ltpurple);
 }
 
-.col-sm-12 .review-history-table{
-	display: none;
-}
-.col-sm-12 .rsearch{
-	display: none;
-}
-
 h2{
 	display: none !important;
 	background-color: var(--theme-title) !important;
@@ -248,19 +241,15 @@ h2{
 .GameHistoryTable .clickable-rows {
 	border: none !important;
 }
-.review-history-table {
-	position: relative;
 
-	padding: var(--theme-border-radius);
-
-	background-size: 100% auto;
-	background-color: var(--theme-background-alpha);
-
-	border: var(--theme-borders);
-	border-radius: var(--theme-border-radius);
-
-	box-shadow: var(--theme-box-shadows);
+/* ===== Review History Container ===== */
+.col-sm-12 .review-history-table{
+	display: none;
 }
+.col-sm-12 .search{
+	display: none;
+}
+
 
 /* ===== Avatar and Username Area ===== */
 .avatar-container .Player-rank {
