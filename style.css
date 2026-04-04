@@ -31,6 +31,7 @@
 	/* Borders */
 	--theme-border-thick: 2px;
 	--theme-border-radius: 12px;
+	--theme-border-title-radius: 10px; /* Border radius - border thickness */
 	--theme-borders: var(--theme-border-thick) solid var(--theme-green);
 	--theme-borders-title-bottom: var(--theme-border-thick) solid var(--theme-green);
 	--theme-borders-title-top: var(--theme-border-thick) solid var(--theme-title);
@@ -101,8 +102,8 @@ a:link, a:visited, a:hover, a:active{
 	background-color: var(--theme-title) !important;
 	border-top: var(--theme-borders-title-top) !important;
 	border-bottom: var(--theme-borders-title-bottom) !important;
-	border-top-left-radius: var(--theme-border-radius) !important;
-	border-top-right-radius: var(--theme-border-radius) !important;
+	border-top-left-radius: var(--theme-border-title-radius) !important;
+	border-top-right-radius: var(--theme-border-title-radius) !important;
 
 	padding: 0 5px 5px;
 
@@ -196,8 +197,8 @@ Card:has(.activity-card) {
 	background-color: var(--theme-title) !important;
 	border-top: var(--theme-borders-title-top) !important;
 	border-bottom: var(--theme-borders-title-bottom) !important;
-	border-top-left-radius: var(--theme-border-radius) !important;
-	border-top-right-radius: var(--theme-border-radius) !important;
+	border-top-left-radius: var(--theme-border-title-radius) !important;
+	border-top-right-radius: var(--theme-border-title-radius) !important;
 
 	padding: 0 5px 5px;
 
