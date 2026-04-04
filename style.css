@@ -73,7 +73,7 @@ h2{
 .profile-card{
 	visibility: visible;
 
-	width: 100%;
+	width: 100% !important;
 
 	z-index: 0;
 	top: 10px;
@@ -172,6 +172,8 @@ h2{
 	visibility: visible;
 
 	position: relative;
+
+	width: 100% !important;
 
 	background-color: var(--theme-background-alpha);
 
