@@ -148,9 +148,6 @@ h2{
 
 	flex: 1 1 auto;
 
-	left: 100px;
-
-	background-size: 100% auto;
 	background-color: var(--theme-background-alpha);
 
 	border: var(--theme-borders);
