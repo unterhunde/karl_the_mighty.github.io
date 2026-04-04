@@ -79,8 +79,6 @@ h2{
 	top: 10px;
 	left: 10px;
 
-	background-size: 100% auto;
-	background-color: transparent;
 	border: var(--theme-borders);
 	border-radius: var(--theme-border-radius);
 
@@ -88,9 +86,11 @@ h2{
 
 	box-shadow: var(--theme-box-shadows);
 
+	background-color: transparent;
 	background-repeat: no-repeat;
 	background-image: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/raintile.gif');
 	background-position: 0 -80px;
+	background-size: cover;
 
 	font-family: var(--theme-font), serif !important;
   	font-size: 12px !important;
