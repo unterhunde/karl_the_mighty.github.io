@@ -88,7 +88,7 @@ a:link, a:visited, a:hover, a:active{
 	box-shadow: var(--theme-box-shadows);
 }
 
-.ratings-chart {
+.RatingsChart {
 	position: relative;
 
 	padding: var(--theme-border-radius);
