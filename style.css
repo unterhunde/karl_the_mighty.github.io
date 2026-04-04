@@ -98,10 +98,10 @@ a:link, a:visited, a:hover, a:active{
 .ratings-title {
 	position: relative;
 
-	background-color: var(--theme-title);
-	border-top: var(--theme-borders-title-top);
-	border-bottom: var(--theme-borders-title-bottom);
-	border-top-radius: var(--theme-border-radius);
+	background-color: var(--theme-title) !important;
+	border-top: var(--theme-borders-title-top) !important;
+	border-bottom: var(--theme-borders-title-bottom) !important;
+	border-top-radius: var(--theme-border-radius) !important;
 
 	padding: 0 5px 5px;
 
