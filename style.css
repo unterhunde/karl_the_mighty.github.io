@@ -223,7 +223,7 @@ h2{
 }
 .graph-type-toggle {
 	position: relative;
-	top: -250px;
+	top: -100px;
 	transform: rotate(-90deg);
 
 }
