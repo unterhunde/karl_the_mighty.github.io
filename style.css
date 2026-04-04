@@ -77,6 +77,8 @@ h2{
 .profile-card{
 	visibility: visible;
 
+	flex: 1 1 auto;
+
 	width: 100% !important;
 
 	border: var(--theme-borders);
@@ -170,6 +172,8 @@ h2{
 /* ===== Chart Containers ===== */
 .ratings-chart {
 	visibility: visible;
+
+	flex: 1 1 auto;
 
 	position: relative;
 
