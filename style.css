@@ -122,7 +122,10 @@ h2{
 }
 .avatar-container .Player-username {
 	flex: 0 1 content !important;
+	position: relative;
 
+	top: 50px;
+	left: -15px;
 
 	color: var(--theme-text);
 	text-shadow: var(--theme-text-shadows);
