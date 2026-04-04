@@ -204,6 +204,7 @@ Card:has(.activity-card) {
 
 }
 .active-games {
+	display: none !important;
 	position: relative;
 
 	background-size: 100% auto !important;
