@@ -144,7 +144,7 @@ h2{
 
 /* ===== Ratings Containers ===== */
 .ratings-container {
-	position: relative;
+	position: absolute;
 
 	flex: 1 1 auto;
 
