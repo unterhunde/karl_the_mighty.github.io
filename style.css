@@ -64,6 +64,7 @@ h2{
 	background: transparent !important;
 	border: none !important;
 	box-shadow: none !important;
+	display: none;
 }
 .country-line{
 	display: none;
