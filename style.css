@@ -94,7 +94,7 @@ h2{
 	background-image: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/raintile.gif');
 	background-size: 100% 120%;
 
-	font-family: 'Astloch', serif !important;
+	font-family: var(--theme-font), serif !important;
   	font-size: 12px !important;
 	text-shadow: var(--theme-text-shadows) !important;
 }
@@ -143,37 +143,6 @@ h2{
 		transform: scale(1.2) rotate(-90deg);
 		color: var(--theme-ltpurple);
 	}
-}
-
-/* ===== About Container ===== */
-.Card {
-	visibility: hidden;
-}
-.about-container{
-	visibility: visible;
-	position: relative;
-
-	top: -600px;
-	left: 330px;
-
-
-	background: var(--theme-bubble-background) !important;
-	border: 2px solid #000 !important;
-	border-radius: 25px !important;
-	padding: 10px !important;
-	width: 150px !important;
-
-	color: var(--theme-ltpurple) !important;
-	text-align: center !important;
-	font-family: var(--theme-font), sans-serif !important;
-	font-size: 14px !important;
-	font-weight: bold !important;
-	/* The Loop: floating animation */
-	animation: float 3s ease-in-out infinite !important;
-}
-@keyframes float {
-  0%, 100% { transform: translateY(0) rotate(25deg); }
-  50% { transform: translateY(-15px) rotate(25deg); }
 }
 
 /* ===== Ratings Containers ===== */
@@ -241,7 +210,36 @@ h2{
 	box-shadow: var(--theme-box-shadows) !important;
 }
 
+/* ===== About Container ===== */
+.Card {
+	visibility: hidden;
+}
+.about-container{
+	visibility: visible;
+	position: relative;
 
+	top: -600px;
+	left: 330px;
+
+
+	background: var(--theme-bubble-background) !important;
+	border: 2px solid #000 !important;
+	border-radius: 25px !important;
+	padding: 10px !important;
+	width: 150px !important;
+
+	color: var(--theme-ltpurple) !important;
+	text-align: center !important;
+	font-family: var(--theme-font), sans-serif !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+	/* The Loop: floating animation */
+	animation: float 3s ease-in-out infinite !important;
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(25deg); }
+  50% { transform: translateY(-15px) rotate(25deg); }
+}
 
 /* ===== Game List and History Containers ===== */
 .active-games-header {
