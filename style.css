@@ -199,7 +199,8 @@ h2{
 }
 .graph-type-toggle {
 	flex: 0 1 content !important;
-
+	position: relative;
+	top: -5px;
 	transform: rotate(-90deg);
 
 }
