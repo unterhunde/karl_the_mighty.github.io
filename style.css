@@ -69,16 +69,8 @@ h2{
 }
 /* Parent User Container: .app-content .User .container*/
 .container {
-	flex: 0 1 auto !important;
-	flex-grow: 0 !important;
-	flex-shrink: 1 !important;
+	flex: 1 1 content !important;
 
-	/*
-		flex-grow: 0;
-		flex-shrink: 1;
-		flex-basis: auto;
-
-	 */
 	z-index: 0;
 	top: 10px;
 	left: 10px;
@@ -173,9 +165,7 @@ h2{
 
 /* ===== Chart Containers ===== */
 .chart {
-	flex: 0 1 auto !important;
-	flex-grow: 0 !important;
-	flex-shrink: 1 !important;
+	flex: 1 1 content !important;
 
 	position: relative;
 	height: 300px !important;
