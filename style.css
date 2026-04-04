@@ -65,8 +65,8 @@ h2{
 }
 
 /* Fill out basic container properties. */
-.container {
-	position: relative;
+.User .container {
+	display: flex;
 	z-index: 0;
 	top: 10px;
 	left: 10px;
