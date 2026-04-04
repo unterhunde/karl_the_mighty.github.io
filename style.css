@@ -188,6 +188,17 @@ Card:has(.activity-card) {
 }
 
 /* ===== Game List and History Containers ===== */
+.active-games-header {
+	position: relative;
+
+	background-color: var(--theme-title);
+	border-top: var(--theme-borders-title-top);
+	border-bottom: var(--theme-borders-title-bottom);
+	border-top-radius: var(--theme-border-radius);
+
+	padding: 0 5px 5px;
+
+}
 .active-games {
 	position: relative;
 
