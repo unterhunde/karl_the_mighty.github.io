@@ -63,13 +63,10 @@ h2{
 .country-line{
 	display: none !important;
 }
-.col-sm-12 .Card div {
-	display: flex;
-	flex-direction: column;
-}
+
 .MainSection{
-	align-content: start;
-	align-items: start;
+	align-content: center;
+	align-items: center;
 }
 /* Parent User Container: .app-content .User .container*/
 .container {
