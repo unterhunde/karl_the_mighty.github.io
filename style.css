@@ -132,8 +132,8 @@ h2{
 	flex: 0 1 content !important;
 	position: relative;
 
-	top: 50px;
-	left: -15px;
+	top: 100px;
+	left: -20px;
 
 	color: var(--theme-text);
 	text-shadow: var(--theme-text-shadows);
