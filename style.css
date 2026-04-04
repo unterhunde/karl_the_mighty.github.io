@@ -91,6 +91,11 @@ a:link, a:visited, a:hover, a:active{
 }
 
 /* ===== Ratings Containers ===== */
+.ratings-title {
+	position: relative;
+	background-color: var(--theme-title);
+
+}
 .ratings-container {
 	position: relative;
 
@@ -210,7 +215,6 @@ Card:has(.activity-card) {
 
 	box-shadow: var(--theme-box-shadows);
 }
-
 .review-history-table {
 	position: relative;
 
