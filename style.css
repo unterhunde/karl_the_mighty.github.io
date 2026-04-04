@@ -59,12 +59,7 @@ h2{
 	padding: var(--theme-border-title-pading);
 }
 /* Hide top level Card effects. */
-.Card {
-	background: transparent !important;
-	border: none !important;
-	box-shadow: none !important;
-	padding: 0 !important;
-}
+
 .country-line{
 	display: none !important;
 }
@@ -150,7 +145,7 @@ h2{
 }
 
 /* ===== Activity Container ===== */
-.col-sm-14 .Card .activity-card {
+.Card .activity-card {
 
 	padding: var(--theme-border-radius) !important;
 
