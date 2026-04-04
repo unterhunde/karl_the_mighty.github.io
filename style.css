@@ -150,7 +150,7 @@ h2{
 }
 
 /* ===== Activity Container ===== */
-.Card .activity-card {
+.col-sm-14 .Card .activity-card {
 
 	padding: var(--theme-border-radius) !important;
 
