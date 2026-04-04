@@ -120,8 +120,7 @@ a:link, a:visited, a:hover, a:active{
 
 	box-shadow: var(--theme-box-shadows);
 }
-
-.RatingsChart, .RatingsChartByGame {
+.ratings-graph {
 	position: relative;
 
 	padding: var(--theme-border-radius);
@@ -134,7 +133,6 @@ a:link, a:visited, a:hover, a:active{
 
 	box-shadow: var(--theme-box-shadows);
 }
-
 .graph-type-toggle {
 	position: relative !important;
 	top: 0px !important;
