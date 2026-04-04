@@ -64,6 +64,10 @@ h2{
 	display: none !important;
 }
 
+.MainSection{
+	align-content: center;
+	align-items: center;
+}
 /* Parent User Container: .app-content .User .container*/
 .container {
 	visibility: hidden;
