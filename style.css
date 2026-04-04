@@ -265,7 +265,7 @@ Card:has(.activity-card) {
 .PlayerIcon{
 	background-repeat: no-repeat;
   	background-position: top left;
-	content: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/bonsaianim.gif');
+	content: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/bonsaianim.gif') !important;
 }
 .avatar-container .Player-username {
 	position: absolute;
