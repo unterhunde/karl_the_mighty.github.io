@@ -65,7 +65,9 @@ h2{
 	border: none !important;
 	box-shadow: none !important;
 }
-
+.country-line{
+	display: none;
+}
 
 /* Fill out basic container properties. */
 .container {
