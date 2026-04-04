@@ -198,11 +198,11 @@ h2{
 }
 
 /* ===== About Container ===== */
-.Card > *{
-	display: none;
+.Card {
+	visibility: hidden;
 }
 .Card > .about-container{
-	display: block !important;
+	visibility: visible;
 
 	background: var(--theme-bubble-background) !important;
 	border: 2px solid #000 !important;
