@@ -124,7 +124,7 @@ h2{
 
 	position: relative;
 	height: 300px !important;
-	width: 1160px !important;
+	/*width: 1160px !important;*/
 
 	padding: var(--theme-border-radius);
 
@@ -145,7 +145,8 @@ h2{
 }
 
 /* ===== Activity Container ===== */
-.Card .activity-card {
+.Card`
+.activity-card {
 
 	padding: var(--theme-border-radius) !important;
 
