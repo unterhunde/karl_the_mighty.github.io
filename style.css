@@ -62,6 +62,7 @@ h1,h2, h3{
 }
 /* Hide top level Card effects. */
 .Card {
+	position: absolute !important;
 	background: transparent !important;
 	border: none !important;
 	box-shadow: none !important;
