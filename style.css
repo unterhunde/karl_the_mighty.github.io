@@ -67,7 +67,7 @@ h2{
 /* Parent User Container: .app-content .User .container*/
 .container {
 	display: flex !important;
-	justify-content: flex-start !important;
+	justify-content: center !important;
 	flex-direction: column !important;
 
 	width: 100%;
