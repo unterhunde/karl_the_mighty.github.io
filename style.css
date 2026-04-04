@@ -134,8 +134,8 @@ a:link, a:visited, a:hover, a:active{
 }
 .graph-type-toggle {
 	position: relative !important;
-	top: 0px !important;
-	right: 0px !important;
+	top: 0 !important;
+	right: 0 !important;
 
 }
 
