@@ -217,15 +217,6 @@ h2{
 	/* The Loop: floating animation */
 	animation: float 3s ease-in-out infinite !important;
 }
-.about-container::after {
-  content: '' !important;
-  position: absolute !important;
-  bottom: -20px !important; /* Adjust based on tail size */
-  left: 50px !important;
-  border-width: 20px 20px 0 !important;
-  border-style: solid !important;
-  border-color: var(--theme-bubble-background) #000000 !important;
-}
 @keyframes float {
   0%, 100% { transform: translateY(0) rotate(25deg); }
   50% { transform: translateY(-15px) rotate(25deg); }
