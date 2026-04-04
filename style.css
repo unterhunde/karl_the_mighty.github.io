@@ -257,9 +257,9 @@ h2{
 
 /* ===== Avatar and Username Area ===== */
 .avatar-container .Player-rank {
-	position:absolute;
-	top: 0;
-	left: 0;
+	position:absolute !important;
+	top: 0 !important;
+	left: 0 !important;
 
 	color: var(--theme-ltgreen) !important;
 	font-family: 'Astloch', serif !important;
