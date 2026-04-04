@@ -96,7 +96,7 @@ a:link, a:visited, a:hover, a:active{
 	position: relative;
 
 	background-color: var(--theme-title);
-	border: var(--theme-borders-title);
+	border-top: var(--theme-borders-title);
 	border-radius: var(--theme-border-radius);
 
 
