@@ -267,7 +267,7 @@ Card:has(.activity-card) {
 .avatar-container .Player-username {
 	position: absolute;
 	top: 100px;
-	left: 100px;
+	left: 95px;
 
 	color: var(--theme-text);
 	text-shadow: var(--theme-text-shadows);
