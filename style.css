@@ -3,41 +3,39 @@
 
 :root {
 /* ==================== ONLY 5 COLORS ==================== */
-	--theme-background: #2e2e2e;
-	--theme-commments: #797979;
-	--theme-white: #d6d6d6;
-	--theme-yellow: #e5b567;
-	--theme-lime: #b4d273;
-	--theme-orange: #e87d3e;
-	--theme-purple: #9e86c8;
-	--theme-pink: #b05279;
-	--theme-blue: #6c99bb;
+	--theme-text: #b62779;
+	--theme-title: #5a293c;
+	--theme-green: #1b4b4b;
+	--theme-sub: #263437;
+	--theme-bg: #2c2d32;
+	--theme-lightpurp: #b7a2c9;
+
 
 	/* Cards and Sub-Containers*/
 	--theme-background-alpha: rgba(46,46,46, 0.9);
 	--theme-border-radius: 12px;
 
-	--theme-text-color: var(--theme-yellow);
+	--theme-text-color: var(--theme-text);
 	--theme-text-shadows: 2px 2px 4px rgba(0, 0, 0, 0.9);
 	--theme-box-shadows: 2px 2px 15px rgba(0, 0, 0, 0.9);
-	--theme-borders: 1px solid var(--theme-lime);
+	--theme-borders: 1px solid var(--theme-green);
 
 	/* Set up defaults */
 	color: var(--theme-text-color);
-	background-color: var(--theme-background);
+	background-color: var(--theme-bg);
 
 	font-family: 'Cinzel', serif !important;
   	font-size: 12px !important;
 	text-shadow: var(--theme-text-shadows) !important;
 
 	/* Im a FANCY LAD doing FANCY stuff */
-	--theme-bubble-background: rgba(214,214,214,0.9);
+	--theme-bubble-background: rgba(38,52,55,0.9);
 
 
 }
 
 a:link, a:visited, a:hover, a:active{
-	color: var(--theme-blue);
+	color: var(--theme-text);
 }
 
 /* Hide top level Card effects. */
@@ -65,7 +63,7 @@ a:link, a:visited, a:hover, a:active{
 
 	background-repeat: no-repeat;
   	background-position: top left;
-	background-image: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/dfire.gif');
+	background-image: url('https://unterhunde.github.io/karl_the_mighty.github.io/images/raintile.gif');
 
 	font-family: 'Cinzel', serif !important;
   	font-size: 12px !important;
@@ -132,7 +130,7 @@ Card:has(.activity-card) {
 	padding: 10px;
 	width: 150px;
 
-	color: var(--theme-background);
+	color: var(--theme-bg);
 	text-align: center;
 	font-family: 'Comic Sans MS', sans-serif;
 	font-size: 14px !important;
@@ -209,7 +207,7 @@ Card:has(.activity-card) {
 	top: 0;
 	left: 0;
 
-	color: var(--theme-purple);
+	color: var(--theme-lightpurp);
 	font-family: 'Cinzel', serif;
   	font-size: 36px;
 	text-shadow: var(--theme-text-shadows);
@@ -223,7 +221,7 @@ Card:has(.activity-card) {
 	top: 100px;
 	left: 5px;
 
-	color: var(--theme-blue);
+	color: var(--theme-text);
 	text-shadow: var(--theme-text-shadows);
 
 	transform: rotate(-90deg);
@@ -238,6 +236,6 @@ Card:has(.activity-card) {
 	}
 	to {
 		transform: scale(1.2) rotate(-90deg);
-		color: var(--theme-orange);
+		color: var(--theme-lightpurp);
 	}
 }
