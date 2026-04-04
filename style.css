@@ -230,6 +230,7 @@ h2{
 
 /* ===== Game List and History Containers ===== */
 .active-games-header {
+	visibility: visible;
 	background-color: var(--theme-title) !important;
 	border-top: var(--theme-borders-title-top) !important;
 	border-bottom: var(--theme-borders-title-bottom) !important;
