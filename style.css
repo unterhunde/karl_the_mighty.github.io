@@ -167,12 +167,10 @@ h2{
 }
 
 /* ===== Chart Containers ===== */
-.RatingChartByGame{
-	display: flex;
-}
+
 .ratings-chart {
 	visibility: visible;
-
+	display: flex;
 	flex: 1 1 auto;
 
 	position: relative;
@@ -185,6 +183,9 @@ h2{
 	border-radius: var(--theme-border-radius);
 
 	box-shadow: var(--theme-box-shadows);
+}
+.RatingChartByGame{
+	display: flex;
 }
 .graph-type-toggle {
 	position: relative;
