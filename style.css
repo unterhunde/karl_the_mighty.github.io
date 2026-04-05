@@ -169,7 +169,7 @@ h2{
 
 	position: relative;
 
-	width: 100% !important;
+	width: 50% !important;
 
 	background-color: var(--theme-background-alpha);
 
@@ -185,6 +185,24 @@ h2{
 	top: -250px;
 	transform: rotate(-90deg);
 
+}
+
+/* ===== Game List and History Containers ===== */
+.col-sm-12 .GameHistoryTable {
+	visibility: visible;
+
+	position: absolute;
+
+	width: 50% !important;
+	padding: var(--theme-border-radius);
+
+	background-size: 100% auto;
+	background-color: var(--theme-background-alpha);
+
+	border: var(--theme-borders);
+	border-radius: var(--theme-border-radius);
+
+	box-shadow: var(--theme-box-shadows);
 }
 
 /* ===== Activity Container ===== */
@@ -232,22 +250,6 @@ h2{
   50% { transform: translateY(-15px) rotate(25deg); }
 }
 
-/* ===== Game List and History Containers ===== */
-.col-sm-12 .GameHistoryTable {
-	visibility: visible;
-	padding: var(--theme-border-radius);
-
-	background-size: 100% auto;
-	background-color: var(--theme-background-alpha);
-
-	border: var(--theme-borders);
-	border-radius: var(--theme-border-radius);
-
-	box-shadow: var(--theme-box-shadows);
-}
-.GameHistoryTable .clickable-rows {
-	border: none !important;
-}
 
 /* ===== Review History Container ===== */
 .col-sm-12 .review-history-table{
