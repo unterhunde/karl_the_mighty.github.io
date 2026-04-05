@@ -188,7 +188,7 @@ h2{
 }
 
 /* ===== Activity Container ===== */
-.Card .activity-card {
+.activity-card {
 	visibility: visible;
 	padding: var(--theme-border-radius) !important;
 
