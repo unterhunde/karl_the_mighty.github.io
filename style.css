@@ -64,6 +64,10 @@ h2{
 	display: none !important;
 }
 
+.MainSection{
+	align-content: center;
+	align-items: center;
+}
 /* Parent User Container: .app-content .User .container*/
 .container {
 	visibility: hidden;
@@ -72,6 +76,8 @@ h2{
 /* ===== Profile Card: div .profile-card .avatar-and-ratings-row===== */
 .profile-card{
 	visibility: visible;
+
+	flex: 1 1 auto;
 
 	border: var(--theme-borders);
 	border-radius: var(--theme-border-radius);
@@ -138,10 +144,11 @@ h2{
 
 /* ===== Ratings Containers ===== */
 .ratings-container {
-	position: absolute;
+	position: relative;
 
-	flex: 1 1 auto;
+	left: 100px;
 
+	background-size: 100% auto;
 	background-color: var(--theme-background-alpha);
 
 	border: var(--theme-borders);
@@ -161,12 +168,9 @@ h2{
 }
 
 /* ===== Chart Containers ===== */
-.ratings-row{
-	display: flex;
-}
 .ratings-chart {
 	visibility: visible;
-	display: flex;
+
 	flex: 1 1 auto;
 
 	position: relative;
@@ -180,13 +184,24 @@ h2{
 
 	box-shadow: var(--theme-box-shadows);
 }
-.RatingChartByGame{
-	display: flex;
-}
 .graph-type-toggle {
 	position: relative;
+	top: -250px;
 	transform: rotate(-90deg);
 
+}
+
+/* ===== Activity Container ===== */
+.Card .activity-card {
+	padding: var(--theme-border-radius) !important;
+
+	background-size: 100% auto !important;
+	background-color: var(--theme-background-alpha) !important;
+
+	border: var(--theme-borders) !important;
+	border-radius: var(--theme-border-radius) !important;
+
+	box-shadow: var(--theme-box-shadows) !important;
 }
 
 /* ===== About Container ===== */
@@ -247,7 +262,6 @@ h2{
 	padding: 5px !important;
 }
 .GameHistoryTable {
-	visibility: visible;
 	padding: var(--theme-border-radius);
 
 	background-size: 100% auto;
@@ -268,17 +282,4 @@ h2{
 }
 .col-sm-12 .search{
 	display: none !important;
-}
-
-/* ===== Activity Container ===== */
-.Card .activity-card {
-	padding: var(--theme-border-radius) !important;
-
-	background-size: 100% auto !important;
-	background-color: var(--theme-background-alpha) !important;
-
-	border: var(--theme-borders) !important;
-	border-radius: var(--theme-border-radius) !important;
-
-	box-shadow: var(--theme-box-shadows) !important;
 }
