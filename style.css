@@ -179,6 +179,8 @@ h2{
 	box-shadow: var(--theme-box-shadows);
 }
 .graph-type-toggle {
+	visibility: visible;
+
 	position: relative;
 	top: -250px;
 	transform: rotate(-90deg);
