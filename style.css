@@ -194,6 +194,7 @@ h2{
 	position: absolute;
 
 	width: 50% !important;
+
 	padding: var(--theme-border-radius);
 
 	background-size: 100% auto;
