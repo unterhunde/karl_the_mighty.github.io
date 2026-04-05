@@ -190,7 +190,7 @@ h2{
 }
 
 /* ===== Game List and History Containers ===== */
-.Card .GameHistoryTable {
+.Card .GameHistoryTable .clickable-rows{
 	visibility: visible;
 
 	position: absolute;;
