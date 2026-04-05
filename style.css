@@ -259,6 +259,7 @@ h2{
 	padding: 5px !important;
 }
 .GameHistoryTable {
+	visibility: visible;
 	padding: var(--theme-border-radius);
 
 	background-size: 100% auto;
