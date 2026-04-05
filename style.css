@@ -77,8 +77,6 @@ h2{
 .profile-card{
 	visibility: visible;
 
-	flex: 1 1 auto;
-
 	border: var(--theme-borders);
 	border-radius: var(--theme-border-radius);
 
