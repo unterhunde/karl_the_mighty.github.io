@@ -190,7 +190,7 @@ h2{
 }
 
 /* ===== Game List and History Containers ===== */
-.col-sm-12 .GameHistoryTable {
+.Card .GameHistoryTable {
 	visibility: visible;
 
 	position: absolute;;
