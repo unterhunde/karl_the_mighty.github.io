@@ -169,6 +169,8 @@ h2{
 
 	position: absolute;
 
+	top: 220px;
+
 	width: 50% !important;
 
 	background-color: var(--theme-background-alpha);
@@ -191,7 +193,9 @@ h2{
 .col-sm-12 .GameHistoryTable {
 	visibility: visible;
 
-	position: absolute;
+	position: absolute;;
+
+
 
 	width: 50% !important;
 
