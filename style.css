@@ -189,6 +189,7 @@ h2{
 
 /* ===== Activity Container ===== */
 .Card .activity-card {
+	visibility: visible;
 	padding: var(--theme-border-radius) !important;
 
 	background-size: 100% auto !important;
