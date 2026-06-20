@@ -31,8 +31,8 @@ class PicameraTrack(VideoStreamTrack):
         pts, time_base = await self.next_timestamp()
         loop = asyncio.get_running_loop()
         arr = await loop.run_in_executor(None, self.picam.capture_array)
-        # Picamera2 default array is RGB
-        frame = av.VideoFrame.from_ndarray(arr, format='rgb24')
+        # Picamera2 default array is XRGB/XBGR8888; use bgra for 4-channel output.
+        frame = av.VideoFrame.from_ndarray(arr, format='bgra')
         frame.pts = pts
         frame.time_base = time_base
         return frame
@@ -51,13 +51,13 @@ async def run(server_url):
     async with aiohttp.ClientSession() as session:
         async with session.post(server_url + '/offer', json={"sdp": pc.localDescription.sdp, "type": pc.localDescription.type}) as resp:
             if resp.status != 200:
-                print('Signaling error', resp.status)
-                print(await resp.text())
+                print('Signaling error', resp.status, flush=True)
+                print(await resp.text(), flush=True)
                 return
             data = await resp.json()
 
     await pc.setRemoteDescription(RTCSessionDescription(sdp=data['sdp'], type=data['type']))
-    print('Connection established; streaming...')
+    print('Connection established; streaming...', flush=True)
 
     try:
         await asyncio.Event().wait()
@@ -72,6 +72,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
     server = args.server or os.environ.get('SIGNALING_SERVER')
     if not server:
-        print('Provide --server or set SIGNALING_SERVER env var')
+        print('Provide --server or set SIGNALING_SERVER env var', flush=True)
         sys.exit(2)
     asyncio.run(run(server))
