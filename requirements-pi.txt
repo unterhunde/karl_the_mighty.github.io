@@ -1,0 +1,5 @@
+aiortc==1.9.0
+av
+numpy
+picamera2
+aiohttp

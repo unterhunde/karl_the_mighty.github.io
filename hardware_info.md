@@ -3,7 +3,7 @@
 ## Controller
 - **Model:** Raspberry Zero 2 W
 - **Communication:** SSH
-- **IP Address:** 192.160.0.38
+- **IP Address:** 192.168.0.38
 
 ## Audio Amplifier
 - **Model:** MAX98357A
